@@ -1,0 +1,5 @@
+*.cf_app_archive
+*.cf_app_muuid
+*.cf_map_muuid
+*.cf_plf_muuid
+*.cf_app_muuid

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "AllInOne",
+			"path": "AllInOne"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Monokai",
+		"files.autoSave": "off"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "AllInOne",
+			"path": "AllInOne"
+		},
+            {
+			"name": "Tutorial",
+			"path": "Tutorial"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Monokai",
+		"files.autoSave": "off"
+	}
+}
