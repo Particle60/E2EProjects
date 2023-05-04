@@ -1,0 +1,13 @@
+<project cofluent="9.1.1">
+	<ip path="/AllInOneApp/Producer">
+		<version>1.0.0</version>
+		<description>Producer</description>
+		<category>Producer</category>
+	</ip>
+	<ip path="/AllInOneApp/Receiver">
+		<version>1.0.0</version>
+		<description>Receiver</description>
+		<category>Receiver</category>
+	</ip>
+	<compiler name="Windows MinGW 9.2.0"/>
+</project>

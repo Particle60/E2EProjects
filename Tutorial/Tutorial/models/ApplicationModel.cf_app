@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_-N6BcRhUEeaRJZtBX_vAyA" name="ApplicationModel" version="6.2.0_dev4_20160511-2100" preElaboration="" cyclePeriod="10 ns" affinity="0" priority="1" schedulingPolicy="FIFO" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" globalTypeDeclarations="typedef cf_dt::cf_time DefStartTime;&#xD;&#xA;typedef cf_dt::cf_data_size DefDataSize;&#xD;&#xA;typedef float DefValue; &#xD;&#xA; &#xD;&#xA;typedef struct{&#xD;&#xA;&#x9;DefStartTime StartTime;&#xD;&#xA;&#x9;DefDataSize DataSize;&#xD;&#xA;&#x9;DefValue Value;&#xD;&#xA;} DefData;">
+  <annotations xmi:id="_-RtjYBhUEeaRJZtBX_vAyA" source="cdt.configurations">
+    <details xmi:id="_U4-uEHH5EeeJVqe6rKhyIg" key="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404" value="cdt.configuration.active"/>
+  </annotations>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_Ni9nEB0PEeaquPXHm3CdXA" name="Frequency" documentation="Frequency of signal" default="0.5" visibility="PUBLIC" accessRight="READ_ONLY" value="0.5" internalUnit="HZ" type="DECIMAL" min="0.1" max="1.0" step="0.1"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_X_-YgB0PEeaquPXHm3CdXA" name="NoiseLevel" documentation="Noise added to signal" default="0" visibility="PUBLIC" accessRight="READ_ONLY" type="INTEGER" min="0" max="1000" step="100"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_eK7e4B0PEeaquPXHm3CdXA" name="ErrorRate" documentation="Error rate (%)" default="0" visibility="PUBLIC" accessRight="READ_ONLY" type="INTEGER" min="0" max="20" step="5"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_jhrhIB0PEeaquPXHm3CdXA" name="DataSize" documentation="Size of data" default="200" visibility="PUBLIC" accessRight="READ_ONLY" type="INTEGER" min="200" max="500" step="50"/>
+  <refinement xsi:type="cofluent:Structure" xmi:id="_-N6ogBhUEeaRJZtBX_vAyA" name="ApplicationModelSt">
+    <models xsi:type="cofluent:Function" xmi:id="_baqE4BkYEealL-5xWZDvNw" name="Producer" constructor="" includes="" declarations="" cyclePeriod=" ns" affinity="0" priority="1" schedulingPolicy="FIFO" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100">
+      <ports xmi:id="_baqE4xkYEealL-5xWZDvNw" name="Msg" type="MESSAGE_QUEUE" direction="OUT" relations="_bawLiRkYEealL-5xWZDvNw" ports="_baqsIhkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+      <ports xmi:id="_baqE5BkYEealL-5xWZDvNw" name="Ack" type="MESSAGE_QUEUE" direction="IN" relations="_bawykBkYEealL-5xWZDvNw" ports="_baqsIxkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_baqE5RkYEealL-5xWZDvNw" name="ProducerSt">
+        <models xsi:type="cofluent:Function" xmi:id="_baqE5hkYEealL-5xWZDvNw" name="Generator" constructor="" includes="" destructor="" declarations="" definitions="" preElaboration="" initializations="" cyclePeriod=" ns" affinity="0" priority="1" schedulingPolicy="FIFO" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100">
+          <ports xmi:id="_baqE6BkYEealL-5xWZDvNw" name="Req" type="EVENT" direction="OUT" outputActions="_baqsBhkYEealL-5xWZDvNw" relations="_baqsbhkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_baqr8BkYEealL-5xWZDvNw" name="DataVar" type="SHARED_VARIABLE" direction="OUT" relations="_baqscxkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_baqr8RkYEealL-5xWZDvNw" name="TestProd" type="SHARED_VARIABLE" direction="OUT" relations="_baqsehkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <refinement xsi:type="cofluent:Behavior" xmi:id="_baqr8hkYEealL-5xWZDvNw" name="GeneratorBh" firstStatement="_baqr8xkYEealL-5xWZDvNw">
+            <statements xsi:type="cofluent:Operation" xmi:id="_baqr8xkYEealL-5xWZDvNw" name="OpInit" isFirstOf="_baqr8hkYEealL-5xWZDvNw" next="_baqr_BkYEealL-5xWZDvNw" algorithm="&#x9;DataVar = 0.0;&#xA;&#x9;TestProd = DataVar;" executionTime="10 ns" systematicWrite="true" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+            <statements xsi:type="cofluent:LoopStatement" xmi:id="_baqr_BkYEealL-5xWZDvNw" name="Loop" firstStatement="_baqr_RkYEealL-5xWZDvNw" lastStatement="_baqsBhkYEealL-5xWZDvNw" previous="_baqr8xkYEealL-5xWZDvNw"/>
+            <statements xsi:type="cofluent:Operation" xmi:id="_baqr_RkYEealL-5xWZDvNw" name="OpGen" isFirstOf="_baqr_BkYEealL-5xWZDvNw" next="_baqsBhkYEealL-5xWZDvNw" algorithm="&#x9;// Produces a discrete sinusoidal signal&#xA;&#x9;double f = Frequency.get_value().to_scalar(CF_HZ);&#xA;&#x9;double t = cf_time_stamp().to_scalar();&#xA;&#x9;DataVar = (DefValue)(1000.0 * sin( (2 * 3.14 * f * t)/1000.0 ) );&#xA;&#x9;TestProd = DataVar;" executionTime="100 ns" systematicWrite="true" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+            <statements xsi:type="cofluent:OutputAction" xmi:id="_baqsBhkYEealL-5xWZDvNw" name="OutAction" isLastOf="_baqr_BkYEealL-5xWZDvNw" previous="_baqr_RkYEealL-5xWZDvNw" port="_baqE6BkYEealL-5xWZDvNw" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+          </refinement>
+        </models>
+        <models xsi:type="cofluent:Function" xmi:id="_baqsIBkYEealL-5xWZDvNw" name="Sender" constructor="" includes="" destructor="" declarations="" definitions="" preElaboration="" initializations="" cyclePeriod=" ns" affinity="1" priority="1" schedulingPolicy="FIFO" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100">
+          <ports xmi:id="_baqsIRkYEealL-5xWZDvNw" name="Req" type="EVENT" direction="IN" inputActions="_baqsMBkYEealL-5xWZDvNw" relations="_baqsbhkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_baqsIhkYEealL-5xWZDvNw" name="Msg" type="MESSAGE_QUEUE" direction="OUT" outputActions="_baqsVBkYEealL-5xWZDvNw" port="_baqE4xkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_baqsIxkYEealL-5xWZDvNw" name="Ack" type="MESSAGE_QUEUE" direction="IN" inputActions="_baqsSBkYEealL-5xWZDvNw" port="_baqE5BkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_baqsJBkYEealL-5xWZDvNw" name="DataVar" type="SHARED_VARIABLE" direction="IN" inputActions="_baqsPBkYEealL-5xWZDvNw" relations="_baqscxkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+          <refinement xsi:type="cofluent:Behavior" xmi:id="_baqsJRkYEealL-5xWZDvNw" name="SenderBh" firstStatement="_baqsLxkYEealL-5xWZDvNw">
+            <statements xsi:type="cofluent:Operation" xmi:id="_baqsJhkYEealL-5xWZDvNw" name="OpEncode" previous="_baqsPBkYEealL-5xWZDvNw" next="_baqsVBkYEealL-5xWZDvNw" algorithm="&#x9;Msg.Value = DataVar;" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+            <statements xsi:type="cofluent:LoopStatement" xmi:id="_baqsLxkYEealL-5xWZDvNw" name="Loop" isFirstOf="_baqsJRkYEealL-5xWZDvNw" firstStatement="_baqsMBkYEealL-5xWZDvNw" lastStatement="_baqsSBkYEealL-5xWZDvNw"/>
+            <statements xsi:type="cofluent:InputAction" xmi:id="_baqsMBkYEealL-5xWZDvNw" name="InAction" isFirstOf="_baqsLxkYEealL-5xWZDvNw" next="_baqsPBkYEealL-5xWZDvNw" port="_baqsIRkYEealL-5xWZDvNw" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+            <statements xsi:type="cofluent:InputAction" xmi:id="_baqsPBkYEealL-5xWZDvNw" name="InAction2" previous="_baqsMBkYEealL-5xWZDvNw" next="_baqsJhkYEealL-5xWZDvNw" port="_baqsJBkYEealL-5xWZDvNw" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+            <statements xsi:type="cofluent:InputAction" xmi:id="_baqsSBkYEealL-5xWZDvNw" name="InAction3" isLastOf="_baqsLxkYEealL-5xWZDvNw" previous="_baqsVBkYEealL-5xWZDvNw" port="_baqsIxkYEealL-5xWZDvNw" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+            <statements xsi:type="cofluent:OutputAction" xmi:id="_baqsVBkYEealL-5xWZDvNw" name="OutAction" previous="_baqsJhkYEealL-5xWZDvNw" next="_baqsSBkYEealL-5xWZDvNw" port="_baqsIhkYEealL-5xWZDvNw" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+          </refinement>
+        </models>
+        <relations xsi:type="cofluent:Event" xmi:id="_baqsbhkYEealL-5xWZDvNw" name="Req" ports="_baqE6BkYEealL-5xWZDvNw _baqsIRkYEealL-5xWZDvNw" setTime="1 ns" getTime="1 ns"/>
+        <relations xsi:type="cofluent:SharedVariable" xmi:id="_baqscxkYEealL-5xWZDvNw" name="DataVar" ports="_baqr8BkYEealL-5xWZDvNw _baqsJBkYEealL-5xWZDvNw" concurrency="1" counter="1" writeTime="1 ns" readTime="1 ns">
+          <relationType xsi:type="cofluent:RelationDataType" xmi:id="_-n600FzFEee79ojEzVGoCg">
+            <dataType href="reuse://_mGIWUiGuEeaaOsqBPt_qWw/Tutorial/Tutorial/models/ApplicationModelDataTypes.cf_dt#_mFqcQiGuEeaaOsqBPt_qWw"/>
+          </relationType>
+        </relations>
+        <relations xsi:type="cofluent:SharedVariable" xmi:id="_baqsehkYEealL-5xWZDvNw" name="TestProd" ports="_baqr8RkYEealL-5xWZDvNw" concurrency="1" counter="1" writeTime="1 ns" readTime="1 ns">
+          <relationType xsi:type="cofluent:RelationDataType" xmi:id="_-oif4FzFEee79ojEzVGoCg">
+            <dataType href="reuse://_mGIWUiGuEeaaOsqBPt_qWw/Tutorial/Tutorial/models/ApplicationModelDataTypes.cf_dt#_mFrDUCGuEeaaOsqBPt_qWw"/>
+          </relationType>
+        </relations>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Function" xmi:id="_bau9YBkYEealL-5xWZDvNw" name="Receiver" includes="" destructor="" declarations="DefValue noise;&#xD;&#xA;DefValue TestCons;" definitions="" preElaboration="" initializations="" cyclePeriod=" ns" affinity="0" priority="1" schedulingPolicy="FIFO" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100">
+      <ports xmi:id="_bau9YhkYEealL-5xWZDvNw" name="Ack" type="MESSAGE_QUEUE" direction="OUT" outputActions="_bau9fBkYEealL-5xWZDvNw" relations="_bawykBkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+      <ports xmi:id="_bau9YxkYEealL-5xWZDvNw" name="Msg" type="MESSAGE_QUEUE" direction="IN" inputActions="_bau9cBkYEealL-5xWZDvNw" relations="_bawLiRkYEealL-5xWZDvNw" synchronizeName="true" vector="false"/>
+      <refinement xsi:type="cofluent:Behavior" xmi:id="_bau9ZBkYEealL-5xWZDvNw" name="ReceiverBh" firstStatement="_bau9ZRkYEealL-5xWZDvNw">
+        <statements xsi:type="cofluent:Operation" xmi:id="_bau9ZRkYEealL-5xWZDvNw" name="OpInit" isFirstOf="_bau9ZBkYEealL-5xWZDvNw" next="_bau9bhkYEealL-5xWZDvNw" algorithm="&#x9;noise = 0.0;&#xA;&#x9;TestCons = 0.0;&#xA;&#x9;cf_trace_gui_f_t(&quot;TestCons&quot;, TestCons);" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+        <statements xsi:type="cofluent:LoopStatement" xmi:id="_bau9bhkYEealL-5xWZDvNw" name="Loop" firstStatement="_bau9cBkYEealL-5xWZDvNw" lastStatement="_bau9fBkYEealL-5xWZDvNw" previous="_bau9ZRkYEealL-5xWZDvNw" condition=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_bau9cBkYEealL-5xWZDvNw" name="InAction" isFirstOf="_bau9bhkYEealL-5xWZDvNw" next="_bau9hxkYEealL-5xWZDvNw" port="_bau9YxkYEealL-5xWZDvNw" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+        <statements xsi:type="cofluent:OutputAction" xmi:id="_bau9fBkYEealL-5xWZDvNw" name="OutAction" isLastOf="_bau9bhkYEealL-5xWZDvNw" previous="_bau9hxkYEealL-5xWZDvNw" port="_bau9YhkYEealL-5xWZDvNw" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+        <statements xsi:type="cofluent:Operation" xmi:id="_bau9hxkYEealL-5xWZDvNw" name="OpDecode" previous="_bau9cBkYEealL-5xWZDvNw" next="_bau9fBkYEealL-5xWZDvNw" algorithm="&#x9;// Adds noise to signal&#xA;&#x9;double t = cf_time_stamp().to_scalar();&#xA;&#x9;noise = (DefValue)(NoiseLevel * sin(0.25 * 3.14 * NoiseLevel*t));&#xA;&#xA;&#x9;TestCons = Msg.Value + noise;&#xA;&#x9;// TestCons value is round down using floor C++ API&#xA;&#x9;cf_trace_gui_f_t(&quot;TestCons&quot;, floor(TestCons));" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+      </refinement>
+    </models>
+    <relations xsi:type="cofluent:MessageQueue" xmi:id="_bawLiRkYEealL-5xWZDvNw" name="Msg" ports="_bau9YxkYEealL-5xWZDvNw _baqE4xkYEealL-5xWZDvNw" capacity="1" concurrency="1" concurrencyManagement="FULL" sendTime="1 ns" receiveTime="1 ns" sendThreshold="1" receiveThreshold="1" address="" mask="" messageQueueType="STANDARD">
+      <relationType xsi:type="cofluent:RelationDataType" xmi:id="_-oI3QFzFEee79ojEzVGoCg">
+        <dataType href="reuse://_mGIWUiGuEeaaOsqBPt_qWw/Tutorial/Tutorial/models/ApplicationModelDataTypes.cf_dt#_mFqcRSGuEeaaOsqBPt_qWw"/>
+      </relationType>
+    </relations>
+    <relations xsi:type="cofluent:MessageQueue" xmi:id="_bawykBkYEealL-5xWZDvNw" name="Ack" ports="_baqE5BkYEealL-5xWZDvNw _bau9YhkYEealL-5xWZDvNw" capacity="1" concurrency="1" concurrencyManagement="FULL" sendTime="1 ns" receiveTime="1 ns" sendThreshold="1" receiveThreshold="1" address="" mask="" messageQueueType="STANDARD">
+      <relationType xsi:type="cofluent:RelationDataType" xmi:id="_-oUdcFzFEee79ojEzVGoCg">
+        <dataType href="reuse://_mGIWUiGuEeaaOsqBPt_qWw/Tutorial/Tutorial/models/ApplicationModelDataTypes.cf_dt#_mFqcQCGuEeaaOsqBPt_qWw"/>
+      </relationType>
+    </relations>
+  </refinement>
+</cofluent:Application>

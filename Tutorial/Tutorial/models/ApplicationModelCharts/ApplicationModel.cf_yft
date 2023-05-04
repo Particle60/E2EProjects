@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<charts:YFTChart xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:charts="http://cofluent.intel.com/charts/1.0.0" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" rangeTime="false" startTime=" fs" endTime=" fs" locked="false" internalUnit="NS" zoomRange="false" startZoom=" fs" endZoom=" fs" fillColor="-1" captionPosition="SOUTH" grid="false" captionOrientation="HORIZONTAL">
+  <probes xsi:type="charts:StaticProbe" messageCount="true">
+    <element xsi:type="cofluent:SharedVariable" href="../ApplicationModel.cf_app#_baqsehkYEealL-5xWZDvNw"/>
+  </probes>
+  <probes xsi:type="charts:DynamicProbe" description="" variable="TestCons" type="VARIABLE"/>
+  <model xsi:type="cofluent:Application" href="../ApplicationModel.cf_app#_-N6BcRhUEeaRJZtBX_vAyA"/>
+  <plots probe="//@probes.0" display="INTERPOLATION" color="255" width="1"/>
+  <plots probe="//@probes.1" display="INTERPOLATION" color="65280" width="1"/>
+</charts:YFTChart>

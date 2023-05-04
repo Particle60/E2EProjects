@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:Mapping xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_-Pq8ABhUEeaRJZtBX_vAyA" name="MappingModel" version="6.2.0_dev4_20160511-2100" sourceInstance="_-Pq8ARhUEeaRJZtBX_vAyA">
+  <annotations xmi:id="_Dbxx8CHAEeaaOsqBPt_qWw" source="cdt.configurations">
+    <details xmi:id="_e8XCEHH6EeeJVqe6rKhyIg" key="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050" value="cdt.configuration.active"/>
+  </annotations>
+  <destination xsi:type="cofluent:Platform" href="PlatformModel.cf_plf#_-PZ2QBhUEeaRJZtBX_vAyA"/>
+  <pairs xmi:id="_48iL4CG_EeaaOsqBPt_qWw" sourceInstance="_3MoUhCG_EeaaOsqBPt_qWw">
+    <dataPaths xmi:id="_dwiSMJk8EeulYLtTcSgq6A" relationInstance="_3MoUhSG_EeaaOsqBPt_qWw">
+      <communicationPath href="PlatformModel.cf_plf#_037AkCG3EeaaOsqBPt_qWw"/>
+    </dataPaths>
+    <dataPaths xmi:id="_dwiSMZk8EeulYLtTcSgq6A" relationInstance="_3MoUhiG_EeaaOsqBPt_qWw">
+      <communicationPath href="PlatformModel.cf_plf#_02eVcCG_EeaaOsqBPt_qWw"/>
+    </dataPaths>
+    <destination xsi:type="cofluent:Processor" href="PlatformModel.cf_plf#_Qdfq4CG3EeaaOsqBPt_qWw"/>
+  </pairs>
+  <pairs xmi:id="_51NgUCG_EeaaOsqBPt_qWw" sourceInstance="_3MntcSG_EeaaOsqBPt_qWw">
+    <dataPaths xmi:id="_dwiSMpk8EeulYLtTcSgq6A" relationInstance="_3MoUgSG_EeaaOsqBPt_qWw"/>
+    <dataPaths xmi:id="_dwiSM5k8EeulYLtTcSgq6A" relationInstance="_3MoUgiG_EeaaOsqBPt_qWw"/>
+    <dataPaths xmi:id="_dwiSNJk8EeulYLtTcSgq6A" relationInstance="_3MoUgyG_EeaaOsqBPt_qWw"/>
+    <destination xsi:type="cofluent:Scheduler" href="PlatformModel.cf_plf#_MbPWYCG3EeaaOsqBPt_qWw"/>
+  </pairs>
+  <pairs xmi:id="_6Fn64CG_EeaaOsqBPt_qWw" sourceInstance="_3MoUgCG_EeaaOsqBPt_qWw">
+    <dataPaths xmi:id="_dwiSNZk8EeulYLtTcSgq6A" relationInstance="_3MoUhSG_EeaaOsqBPt_qWw">
+      <communicationPath href="PlatformModel.cf_plf#_037AkCG3EeaaOsqBPt_qWw"/>
+    </dataPaths>
+    <dataPaths xmi:id="_dwiSNpk8EeulYLtTcSgq6A" relationInstance="_3MoUhiG_EeaaOsqBPt_qWw">
+      <communicationPath href="PlatformModel.cf_plf#_02eVcCG_EeaaOsqBPt_qWw"/>
+    </dataPaths>
+    <dataPaths xmi:id="_dwiSN5k8EeulYLtTcSgq6A" relationInstance="_3MoUgSG_EeaaOsqBPt_qWw"/>
+    <dataPaths xmi:id="_dwiSOJk8EeulYLtTcSgq6A" relationInstance="_3MoUgiG_EeaaOsqBPt_qWw"/>
+    <destination xsi:type="cofluent:Scheduler" href="PlatformModel.cf_plf#_MbPWYCG3EeaaOsqBPt_qWw"/>
+  </pairs>
+  <instance xmi:id="_-Pq8ARhUEeaRJZtBX_vAyA" rangeType="INT">
+    <element xsi:type="cofluent:Application" href="ApplicationModel.cf_app#_-N6BcRhUEeaRJZtBX_vAyA"/>
+    <children xmi:id="_3MntcCG_EeaaOsqBPt_qWw" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="ApplicationModel.cf_app#_baqE4BkYEealL-5xWZDvNw"/>
+      <children xmi:id="_3MntcSG_EeaaOsqBPt_qWw" rangeType="INT">
+        <element xsi:type="cofluent:Function" href="ApplicationModel.cf_app#_baqE5hkYEealL-5xWZDvNw"/>
+      </children>
+      <children xmi:id="_3MoUgCG_EeaaOsqBPt_qWw" rangeType="INT">
+        <element xsi:type="cofluent:Function" href="ApplicationModel.cf_app#_baqsIBkYEealL-5xWZDvNw"/>
+      </children>
+      <children xmi:id="_3MoUgSG_EeaaOsqBPt_qWw" rangeType="INT">
+        <element xsi:type="cofluent:Event" href="ApplicationModel.cf_app#_baqsbhkYEealL-5xWZDvNw"/>
+      </children>
+      <children xmi:id="_3MoUgiG_EeaaOsqBPt_qWw" rangeType="INT">
+        <element xsi:type="cofluent:SharedVariable" href="ApplicationModel.cf_app#_baqscxkYEealL-5xWZDvNw"/>
+      </children>
+      <children xmi:id="_3MoUgyG_EeaaOsqBPt_qWw" rangeType="INT">
+        <element xsi:type="cofluent:SharedVariable" href="ApplicationModel.cf_app#_baqsehkYEealL-5xWZDvNw"/>
+      </children>
+    </children>
+    <children xmi:id="_3MoUhCG_EeaaOsqBPt_qWw" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="ApplicationModel.cf_app#_bau9YBkYEealL-5xWZDvNw"/>
+    </children>
+    <children xmi:id="_3MoUhSG_EeaaOsqBPt_qWw" rangeType="INT">
+      <element xsi:type="cofluent:MessageQueue" href="ApplicationModel.cf_app#_bawLiRkYEealL-5xWZDvNw"/>
+    </children>
+    <children xmi:id="_3MoUhiG_EeaaOsqBPt_qWw" rangeType="INT">
+      <element xsi:type="cofluent:MessageQueue" href="ApplicationModel.cf_app#_bawykBkYEealL-5xWZDvNw"/>
+    </children>
+  </instance>
+</cofluent:Mapping>

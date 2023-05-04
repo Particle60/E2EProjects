@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404" moduleId="org.eclipse.cdt.core.settings" name="ApplicationModelBuild">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.cofluent.studio.mingw.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="ApplicationModel" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="ApplicationModel - MinGW 9.2.0 - Windows 64-bit - Accellera" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;com.cofluent.studio.mingw.errorparser;org.eclipse.cdt.core.GCCErrorParser" id="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404" name="ApplicationModelBuild" parent="cofluent.managedbuild.config.gnu.mingw.exe.release" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404." name="/" resourcePath="">
+                        						
+                        <toolChain errorParsers="" id="cofluent.managedbuild.toolchain.gnu.mingw.exe.release.1558495331" name="CoFluent MinGW Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.gnu.mingw.exe.release">
+                            							
+                            <targetPlatform binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.867423534" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+                            							
+                            <builder buildPath="/Tutorial/release/ApplicationModelBuild" errorParsers="com.cofluent.studio.mingw.errorparser" id="com.cofluent.studio.internal.generators.builder.exe.742063110" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CoFluent MinGW Makefile Generator" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.exe"/>
+                            							
+                            <tool command="as" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" errorParsers="org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.1095845523" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.1299916754" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.74173769" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.34779632" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.1915547725" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.463408757" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.1059363158" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.1166350726" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_APPLICATION_MODELING=COFS_MODEL_TYPE_APPLICATION_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.other.other.1462824348" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-fmessage-length=100 -frtti -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.nowarn.990952246" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.allwarn.2099745008" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1060940432" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1621458486" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1543890146" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.1507061486" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.1541490496" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.misc.other.126693683" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=100 -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.670453584" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.697374686" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.47155363" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.link.option.paths.564346454" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/mingw-gcc-9.2.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${mingw_loc:/mingw-gcc-9.2.0}/lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.1373651846" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="coflm"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.flags.1146995426" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="-mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.1205507810" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false" valueType="userObjs">
+                                    									
+                                    <listOptionValue builtIn="false" value="${mingw_loc:/lmgr11.dll}"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1310938202" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/ApplicationModel"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148" moduleId="org.eclipse.cdt.core.settings" name="ApplicationModelRefinementBuild">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.cofluent.studio.mingw.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="ApplicationModelRefinement" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="ApplicationModelRefinement - MinGW 9.2.0 - Windows 64-bit - Accellera" id="cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148" name="ApplicationModelRefinementBuild" parent="cofluent.managedbuild.config.gnu.mingw.exe.release">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148." name="/" resourcePath="">
+                        						
+                        <toolChain id="cofluent.managedbuild.toolchain.gnu.mingw.exe.release.1498036193" name="CoFluent MinGW Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.gnu.mingw.exe.release">
+                            							
+                            <targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.487697965" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+                            							
+                            <builder buildPath="/Tutorial/release/ApplicationModelRefinementBuild" id="com.cofluent.studio.internal.generators.builder.exe.1066914155" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CoFluent MinGW Makefile Generator" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.exe"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.998168665" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.1226943966" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1255362083" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1810969372" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.756847777" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.1144374119" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.1641065486" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModelRefinement/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.811973167" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_APPLICATION_MODELING=COFS_MODEL_TYPE_APPLICATION_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.other.other.2137677696" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-fmessage-length=100 -frtti -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.allwarn.2072134157" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.nowarn.285766055" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.604894898" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.275477797" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1449584932" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.1816069985" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.1861340771" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModelRefinement/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.misc.other.2107981000" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=100 -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1684155560" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1144722872" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.993539139" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.link.option.paths.667411052" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/mingw-gcc-9.2.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${mingw_loc:/mingw-gcc-9.2.0}/lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.1978391938" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="coflm"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.flags.201551351" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="-mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.2079170148" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false" valueType="userObjs">
+                                    									
+                                    <listOptionValue builtIn="false" value="${mingw_loc:/lmgr11.dll}"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.895344607" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/ApplicationModelRefinement"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050" moduleId="org.eclipse.cdt.core.settings" name="MappingModelBuild">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.cofluent.studio.mingw.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="MappingModel" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="MappingModel - MinGW 9.2.0 - Windows 64-bit - Accellera" id="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050" name="MappingModelBuild" parent="cofluent.managedbuild.config.gnu.mingw.exe.release">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050." name="/" resourcePath="">
+                        						
+                        <toolChain id="cofluent.managedbuild.toolchain.gnu.mingw.exe.release.619924681" name="CoFluent MinGW Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.gnu.mingw.exe.release">
+                            							
+                            <targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.373064969" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+                            							
+                            <builder buildPath="/Tutorial/release/MappingModelBuild" id="com.cofluent.studio.internal.generators.builder.exe.2129483126" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CoFluent MinGW Makefile Generator" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.exe"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.637300403" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.1664814276" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1669709501" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1154061402" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.1892920365" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.620545166" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.1040762281" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/MappingModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/PlatformModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.757095617" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_ARCHITECTURE_MODELING=COFS_MODEL_TYPE_ARCHITECTURE_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.other.other.1772212901" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-fmessage-length=100 -frtti -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.allwarn.1412191661" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.nowarn.1399488052" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.646004060" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1199310589" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1917969193" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.1563120074" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.709397788" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/MappingModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/PlatformModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.misc.other.1115790771" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=100 -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2095653357" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.2086382790" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.1564166119" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.link.option.paths.2140148819" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/mingw-gcc-9.2.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${mingw_loc:/mingw-gcc-9.2.0}/lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.464207014" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="coflm"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.flags.887616528" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="-mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.288031923" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false" valueType="userObjs">
+                                    									
+                                    <listOptionValue builtIn="false" value="${mingw_loc:/lmgr11.dll}"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.2015047923" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/ApplicationModel"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/MappingModel"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/PlatformModel"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="cofluent.managedbuild.config.gnu.mingw.exe.release.62496061">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.gnu.mingw.exe.release.62496061" moduleId="org.eclipse.cdt.core.settings" name="MappingModelRefinementBuild">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.cofluent.studio.mingw.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="MappingModelRefinement" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="MappingModelRefinement - MinGW 9.2.0 - Windows 64-bit - Accellera" id="cofluent.managedbuild.config.gnu.mingw.exe.release.62496061" name="MappingModelRefinementBuild" parent="cofluent.managedbuild.config.gnu.mingw.exe.release">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.gnu.mingw.exe.release.62496061." name="/" resourcePath="">
+                        						
+                        <toolChain id="cofluent.managedbuild.toolchain.gnu.mingw.exe.release.322519762" name="CoFluent MinGW Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.gnu.mingw.exe.release">
+                            							
+                            <targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.208561618" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+                            							
+                            <builder buildPath="/Tutorial/release/MappingModelRefinementBuild" id="com.cofluent.studio.internal.generators.builder.exe.2045033431" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CoFluent MinGW Makefile Generator" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.exe"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.481417074" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.581406654" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.70879855" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1338670439" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.1952809930" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.2057111839" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.1689579185" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/MappingModelRefinement/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModelRefinement/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/PlatformModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.462017938" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_ARCHITECTURE_MODELING=COFS_MODEL_TYPE_ARCHITECTURE_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.other.other.1179369094" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-fmessage-length=100 -frtti -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.allwarn.2134141228" name="All warnings (-Wall)" superClass="gnu.cpp.compiler.option.warnings.allwarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.warnings.nowarn.1679820978" name="Inhibit all warnings (-w)" superClass="gnu.cpp.compiler.option.warnings.nowarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.535510541" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1165488834" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.283283514" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.660566207" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.1262714456" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/MappingModelRefinement/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModelRefinement/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/PlatformModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.misc.other.437351238" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-fmessage-length=100 -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.68123812" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1248414697" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.787749409" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.link.option.paths.1036158389" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/mingw-gcc-9.2.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${mingw_loc:/mingw-gcc-9.2.0}/lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.7711374" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="coflm"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.flags.1862088590" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="-mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.1051306594" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false" valueType="userObjs">
+                                    									
+                                    <listOptionValue builtIn="false" value="${mingw_loc:/lmgr11.dll}"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.882345700" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/ApplicationModelRefinement"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/MappingModelRefinement"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/PlatformModel"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="cofluent.managedbuild.config.msvc2019.exe.release.2016132561">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.msvc2019.exe.release.2016132561" moduleId="org.eclipse.cdt.core.settings" name="ApplicationModelBuild_1">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.cofluent.studio.msvc.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="ApplicationModel" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="ApplicationModel - Visual C++ 2019 - Windows 64-bit - Accellera" id="cofluent.managedbuild.config.msvc2019.exe.release.2016132561" name="ApplicationModelBuild_1" parent="cofluent.managedbuild.config.msvc2019.exe.release">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.msvc2019.exe.release.2016132561." name="/" resourcePath="">
+                        						
+                        <toolChain id="cofluent.managedbuild.toolchain.msvc2019.exe.release.1200238832" name="CoFluent MSVC 2019 Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.msvc2019.exe.release">
+                            							
+                            <targetPlatform id="com.cofluent.studio.msvc.targetPlatform.exe.release.1629779683" superClass="com.cofluent.studio.msvc.targetPlatform.exe.release"/>
+                            							
+                            <builder buildPath="/Tutorial/release/ApplicationModelBuild_1" id="com.cofluent.studio.internal.generators.builder.msvc.1134259743" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CoFluent MSVC Makefile Generator" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.msvc"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="com.cofluent.studio.msvc.cl.exe.release.470603280" name="C/C++ Compiler (cl)" superClass="com.cofluent.studio.msvc.cl.exe.release">
+                                								
+                                <option id="com.cofluent.studio.msvc.cl.option.includes.2066955289" name="Include Path (/I)" superClass="com.cofluent.studio.msvc.cl.option.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tutorial/gen-sysc/ApplicationModel/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.cofluent.studio.msvc.cl.option.macros.1397074016" name="Defines (/D)" superClass="com.cofluent.studio.msvc.cl.option.macros" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="WIN32=&quot;WIN32&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="_CRT_SECURE_NO_WARNINGS=_CRT_SECURE_NO_WARNINGS"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="_CRT_SECURE_NO_DEPRECATE=_CRT_SECURE_NO_DEPRECATE"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BOOST_AUTO_LINK_TAGGED=BOOST_AUTO_LINK_TAGGED"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_APPLICATION_MODELING=COFS_MODEL_TYPE_APPLICATION_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.cofluent.studio.msvc.cl.option.others.1905194811" name="Other Options" superClass="com.cofluent.studio.msvc.cl.option.others" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="/W3 /GR /Zm200 /vmg /TP /Gy"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.cofluent.studio.msvc.cl.inputType.2052800236" superClass="com.cofluent.studio.msvc.cl.inputType"/>
+                                								
+                                <inputType id="com.cofluent.studio.msvc.cl.c.inputType.1598988936" superClass="com.cofluent.studio.msvc.cl.c.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="com.cofluent.studio.msvc.link.exe.release.1827151787" name="Linker (link)" superClass="com.cofluent.studio.msvc.link.exe.release">
+                                								
+                                <option id="com.cofluent.studio.msvc.link.option.libpath.1317777344" name="Additional Libpath (/libpath)" superClass="com.cofluent.studio.msvc.link.option.libpath" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/msvc-16.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.cofluent.studio.msvc.link.option.libraries.1297361176" name="Libraries" superClass="com.cofluent.studio.msvc.link.option.libraries" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="libcpmt.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="libcmt.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="oldnames.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="kernel32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="user32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gdi32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="winspool.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="comdlg32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="advapi32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="shell32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ole32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="oleaut32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="uuid.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="odbc32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="odbccp32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="netapi32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="comctl32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wsock32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="rpcrt4.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wbemuuid.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wintrust.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="crypt32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="psapi.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="Shlwapi.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="dhcpcsvc.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="legacy_stdio_definitions.lib"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.cofluent.studio.msvc.link.inputType.525454053" superClass="com.cofluent.studio.msvc.link.inputType"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Tutorial/gen-sysc/ApplicationModel"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="Tutorial.cofluent.managedbuild.target.msvc.exe.1298911447" name="CoFluent Visual C++ Executable" projectType="cofluent.managedbuild.target.msvc.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.890854012;cofluent.managedbuild.config.gnu.mingw.exe.release.890854012.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.907892248;cdt.managedbuild.tool.gnu.cpp.compiler.input.1751161506">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050;cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1154061402;cdt.managedbuild.tool.gnu.cpp.compiler.input.646004060">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1909951119;cofluent.managedbuild.config.gnu.mingw.exe.release.1909951119.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1447111388;cdt.managedbuild.tool.gnu.c.compiler.input.1057229561">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404;cofluent.managedbuild.config.gnu.mingw.exe.release.457760404.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.34779632;cdt.managedbuild.tool.gnu.cpp.compiler.input.1060940432">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.457760404;cofluent.managedbuild.config.gnu.mingw.exe.release.457760404.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1621458486;cdt.managedbuild.tool.gnu.c.compiler.input.670453584">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.62496061;cofluent.managedbuild.config.gnu.mingw.exe.release.62496061.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1338670439;cdt.managedbuild.tool.gnu.cpp.compiler.input.535510541">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.msvc2019.exe.release.2016132561;cofluent.managedbuild.config.msvc2019.exe.release.2016132561.;com.cofluent.studio.msvc.cl.exe.release.470603280;com.cofluent.studio.msvc.cl.inputType.2052800236">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1162495550;cofluent.managedbuild.config.gnu.mingw.exe.release.1162495550.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1586935664;cdt.managedbuild.tool.gnu.cpp.compiler.input.1037713774">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1909951119;cofluent.managedbuild.config.gnu.mingw.exe.release.1909951119.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.2003927726;cdt.managedbuild.tool.gnu.cpp.compiler.input.1057166273">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.msvc2019.exe.release.2016132561;cofluent.managedbuild.config.msvc2019.exe.release.2016132561.;com.cofluent.studio.msvc.cl.exe.release.470603280;com.cofluent.studio.msvc.cl.c.inputType.1598988936">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.890854012;cofluent.managedbuild.config.gnu.mingw.exe.release.890854012.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.663729161;cdt.managedbuild.tool.gnu.c.compiler.input.1640737913">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1537885388;cofluent.managedbuild.config.gnu.mingw.exe.release.1537885388.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.2138279071;cdt.managedbuild.tool.gnu.cpp.compiler.input.194762778">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148;cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1810969372;cdt.managedbuild.tool.gnu.cpp.compiler.input.604894898">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.62496061;cofluent.managedbuild.config.gnu.mingw.exe.release.62496061.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1165488834;cdt.managedbuild.tool.gnu.c.compiler.input.68123812">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1835703018;cofluent.managedbuild.config.gnu.mingw.exe.release.1835703018.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.965142238;cdt.managedbuild.tool.gnu.c.compiler.input.347117434">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1835703018;cofluent.managedbuild.config.gnu.mingw.exe.release.1835703018.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1425784943;cdt.managedbuild.tool.gnu.cpp.compiler.input.1435614501">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148;cofluent.managedbuild.config.gnu.mingw.exe.release.1196624148.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.275477797;cdt.managedbuild.tool.gnu.c.compiler.input.1684155560">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1537885388;cofluent.managedbuild.config.gnu.mingw.exe.release.1537885388.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.710029293;cdt.managedbuild.tool.gnu.c.compiler.input.1446904254">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050;cofluent.managedbuild.config.gnu.mingw.exe.release.1357682050.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1199310589;cdt.managedbuild.tool.gnu.c.compiler.input.2095653357">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1162495550;cofluent.managedbuild.config.gnu.mingw.exe.release.1162495550.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.295918449;cdt.managedbuild.tool.gnu.c.compiler.input.832605248">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    
+</cproject>

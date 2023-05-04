@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:Mapping xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_NhvvQM67Ee2cioh9aHqsuA" name="AllInOneMap" version="8.1.1_r1_nolic_287" sourceInstance="_NhvvQc67Ee2cioh9aHqsuA">
+  <destination xsi:type="cofluent:Platform" href="AllInOnePlf.cf_plf#_NhjiAM67Ee2cioh9aHqsuA"/>
+  <pairs xmi:id="_JAPrYM-qEe2cioh9aHqsuA" sourceInstance="_cVrSEs7FEe2cioh9aHqsuA">
+    <dataPaths xmi:id="_JAPrYc-qEe2cioh9aHqsuA" relationInstance="_cVrSFM7FEe2cioh9aHqsuA"/>
+    <dataPaths xmi:id="_JAPrYs-qEe2cioh9aHqsuA" relationInstance="_cVrSFc7FEe2cioh9aHqsuA"/>
+    <dataPaths xmi:id="_JAPrY8-qEe2cioh9aHqsuA" relationInstance="_cVrSFs7FEe2cioh9aHqsuA"/>
+    <destination xsi:type="cofluent:Scheduler" href="AllInOnePlf.cf_plf#_dDd3Yc7DEe2cioh9aHqsuA"/>
+  </pairs>
+  <pairs xmi:id="_JAPrZM-qEe2cioh9aHqsuA" sourceInstance="_cVrSE87FEe2cioh9aHqsuA">
+    <dataPaths xmi:id="_JAPrZc-qEe2cioh9aHqsuA" relationInstance="_cVr5Kc7FEe2cioh9aHqsuA">
+      <communicationPath href="AllInOnePlf.cf_plf#_wvZ2ZM7DEe2cioh9aHqsuA"/>
+    </dataPaths>
+    <dataPaths xmi:id="_JAPrZs-qEe2cioh9aHqsuA" relationInstance="_cVr5Ks7FEe2cioh9aHqsuA">
+      <communicationPath href="AllInOnePlf.cf_plf#_gWiKWM7DEe2cioh9aHqsuA"/>
+    </dataPaths>
+    <dataPaths xmi:id="_JAPrZ8-qEe2cioh9aHqsuA" relationInstance="_cVrSFM7FEe2cioh9aHqsuA"/>
+    <dataPaths xmi:id="_JAPraM-qEe2cioh9aHqsuA" relationInstance="_cVrSFc7FEe2cioh9aHqsuA"/>
+    <destination xsi:type="cofluent:Scheduler" href="AllInOnePlf.cf_plf#_dDd3Yc7DEe2cioh9aHqsuA"/>
+  </pairs>
+  <pairs xmi:id="_K6TkUM-qEe2cioh9aHqsuA" sourceInstance="_cVrSEM7FEe2cioh9aHqsuA">
+    <dataPaths xmi:id="_K6TkUc-qEe2cioh9aHqsuA" relationInstance="_cVr5Kc7FEe2cioh9aHqsuA">
+      <communicationPath href="AllInOnePlf.cf_plf#_wvZ2ZM7DEe2cioh9aHqsuA"/>
+    </dataPaths>
+    <dataPaths xmi:id="_K6TkUs-qEe2cioh9aHqsuA" relationInstance="_cVr5Ks7FEe2cioh9aHqsuA">
+      <communicationPath href="AllInOnePlf.cf_plf#_gWiKWM7DEe2cioh9aHqsuA"/>
+    </dataPaths>
+    <destination xsi:type="cofluent:Processor" href="AllInOnePlf.cf_plf#_dDd3ic7DEe2cioh9aHqsuA"/>
+  </pairs>
+  <instance xmi:id="_NhvvQc67Ee2cioh9aHqsuA" rangeType="INT">
+    <element xsi:type="cofluent:Application" href="AllInOneApp.cf_app#_NhKgcM67Ee2cioh9aHqsuA"/>
+    <children xmi:id="_cVrSEM7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_dnfDwM67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVrSEc7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_dnfEl867Ee2cioh9aHqsuA"/>
+      <children xmi:id="_cVrSEs7FEe2cioh9aHqsuA" rangeType="INT">
+        <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_dnfEm867Ee2cioh9aHqsuA"/>
+      </children>
+      <children xmi:id="_cVrSE87FEe2cioh9aHqsuA" rangeType="INT">
+        <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_dnfEpM67Ee2cioh9aHqsuA"/>
+      </children>
+      <children xmi:id="_cVrSFM7FEe2cioh9aHqsuA" rangeType="INT">
+        <element xsi:type="cofluent:Event" href="AllInOneApp.cf_app#_dnfEsM67Ee2cioh9aHqsuA"/>
+      </children>
+      <children xmi:id="_cVrSFc7FEe2cioh9aHqsuA" rangeType="INT">
+        <element xsi:type="cofluent:SharedVariable" href="AllInOneApp.cf_app#_dnfEsc67Ee2cioh9aHqsuA"/>
+      </children>
+      <children xmi:id="_cVrSFs7FEe2cioh9aHqsuA" rangeType="INT">
+        <element xsi:type="cofluent:SharedVariable" href="AllInOneApp.cf_app#_dnfEs867Ee2cioh9aHqsuA"/>
+      </children>
+    </children>
+    <children xmi:id="_cVr5IM7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_sfeLsM67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Ic7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:ClockGenerator" href="AllInOneApp.cf_app#_ue5FwM67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Is7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Divider" href="AllInOneApp.cf_app#_vZzO0M67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5I87FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:RoutingFunction" href="AllInOneApp.cf_app#_wAL5YM67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5JM7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:SampledFunction" href="AllInOneApp.cf_app#_xAWV4M67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Jc7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:DeviceProgrammersView" href="AllInOneApp.cf_app#_58TkQM67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Js7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:SystemCIP" href="AllInOneApp.cf_app#_-jbgZc67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5J87FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_VauoW868Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5KM7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:SystemCIP" href="AllInOneApp.cf_app#_4aLbcM7BEe2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Kc7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:MessageQueue" href="AllInOneApp.cf_app#_dnfEvs67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Ks7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:MessageQueue" href="AllInOneApp.cf_app#_dnfEyc67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5K87FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Pipeline" href="AllInOneApp.cf_app#_3itPoM67Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5LM7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:MessageQueue" href="AllInOneApp.cf_app#_UIzQ4M69Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Lc7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Event" href="AllInOneApp.cf_app#_-lMTkM6-Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Ls7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Event" href="AllInOneApp.cf_app#_IWSaMM6_Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5L87FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Event" href="AllInOneApp.cf_app#_MRK7YM6_Ee2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5MM7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:BindingConnection" href="AllInOneApp.cf_app#_42zGAs7BEe2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_cVr5Mc7FEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:MethodCallInterface" href="AllInOneApp.cf_app#_PrCS0M7CEe2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_vSCXsM9wEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="reuse://_D6dp8M7REe2cioh9aHqsuA/AllInOne/AllInOne/models/AllInOneReuse.cf_app#_t3uLgM7QEe2cioh9aHqsuA"/>
+    </children>
+    <children xmi:id="_vSC-wM9wEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_WGA0IM9wEe2cioh9aHqsuA"/>
+      <children xmi:id="_vSC-wc9wEe2cioh9aHqsuA" rangeType="INT">
+        <element xsi:type="cofluent:Function" href="AllInOneApp.cf_app#_WP4h0c9wEe2cioh9aHqsuA"/>
+      </children>
+    </children>
+    <children xmi:id="_vSC-ws9wEe2cioh9aHqsuA" rangeType="INT">
+      <element xsi:type="cofluent:MessageQueue" href="AllInOneApp.cf_app#_H2qZwM7REe2cioh9aHqsuA"/>
+    </children>
+  </instance>
+</cofluent:Mapping>

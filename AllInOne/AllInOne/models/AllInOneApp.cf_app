@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_NhKgcM67Ee2cioh9aHqsuA" name="AllInOneApp" version="8.1.1_r1_nolic_287" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod="10 ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+  <annotations xmi:id="_Nit_oM67Ee2cioh9aHqsuA" source="cdt.configurations">
+    <details xmi:id="_Nit_oc67Ee2cioh9aHqsuA" key="cofluent.managedbuild.config.gnu.mingw.exe.release.1321298169" value="cdt.configuration.active"/>
+  </annotations>
+  <dataTypes xmi:id="_dnjVMM67Ee2cioh9aHqsuA" name="DefDataVar" definition="typedef DefValue DefDataVar;" copyPayload="cf_payload::cb_copy_payload(_address, _value, _atom_count);" tracePayload="&#x9;trace.fmt(&quot;%f&quot;, get_data());" allocatePayload="r = cf_payload::cb_alloc_payload(_atom_count);" deallocatePayload="cf_payload::cb_delete_payload(_address);"/>
+  <dataTypes xmi:id="_dnjVMc67Ee2cioh9aHqsuA" name="DefTestProd" definition="typedef DefValue DefTestProd;" copyPayload="cf_payload::cb_copy_payload(_address, _value, _atom_count);" tracePayload="&#x9;trace.fmt(&quot;%f&quot;, get_data());" allocatePayload="r = cf_payload::cb_alloc_payload(_atom_count);" deallocatePayload="cf_payload::cb_delete_payload(_address);"/>
+  <dataTypes xmi:id="_dnjVMs67Ee2cioh9aHqsuA" name="DefAck" definition="typedef bool DefAck;" copyPayload="cf_payload::cb_copy_payload(_address, _value, _atom_count);" allocatePayload="r = cf_payload::cb_alloc_payload(_atom_count);" deallocatePayload="cf_payload::cb_delete_payload(_address);"/>
+  <dataTypes xmi:id="_dnjVM867Ee2cioh9aHqsuA" name="DefMsg" definition="typedef DefData DefMsg;" copyPayload="cf_payload::cb_copy_payload(_address, _value, _atom_count);" allocatePayload="r = cf_payload::cb_alloc_payload(_atom_count);" deallocatePayload="cf_payload::cb_delete_payload(_address);"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_F_-l8M7GEe2cioh9aHqsuA" name="DataSize" documentation="Size of data" default="200" visibility="PUBLIC" accessRight="READ_ONLY" value="200" type="INTEGER" min="200" max="500" step="50"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_F__NAM7GEe2cioh9aHqsuA" name="ErrorRate" documentation="Error rate (%)" default="0" visibility="PUBLIC" accessRight="READ_ONLY" value="0" type="INTEGER" min="0" max="20" step="5"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_F__NAc7GEe2cioh9aHqsuA" name="Frequency" documentation="Frequency of signal" default="0.5" visibility="PUBLIC" accessRight="READ_ONLY" value="0.5" internalUnit="HZ" type="DECIMAL" min="0.1" max="1.0" step="0.1"/>
+  <designParameters xsi:type="cofluent:RangeParameter" xmi:id="_F__NAs7GEe2cioh9aHqsuA" name="NoiseLevel" documentation="Noise added to signal" default="0" visibility="PUBLIC" accessRight="READ_ONLY" value="0" type="INTEGER" min="0" max="1000" step="100"/>
+  <designParameters xsi:type="cofluent:EnumerationParameter" xmi:id="_GxIWEM7GEe2cioh9aHqsuA" name="Enum" default="a" visibility="PUBLIC" accessRight="READ_WRITE">
+    <values>a</values>
+    <values>b</values>
+    <values>c</values>
+  </designParameters>
+  <designParameters xsi:type="cofluent:PrimitiveTypeParameter" xmi:id="_LqWHwM7GEe2cioh9aHqsuA" name="Primitive" default="0" visibility="PUBLIC" accessRight="READ_WRITE" internalUnit="EUROS" type="INTEGER"/>
+  <refinement xsi:type="cofluent:Structure" xmi:id="_NhKgcc67Ee2cioh9aHqsuA" name="AllInOneAppSt">
+    <models xsi:type="cofluent:Function" xmi:id="_dnfDwM67Ee2cioh9aHqsuA" name="Receiver" includes="" destructor="" declarations="DefValue noise;&#xD;&#xA;DefValue TestCons;" definitions="" preElaboration="" initializations="" cyclePeriod=" ns" affinity="0" priority="1" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+      <ports xmi:id="_dnfDwc67Ee2cioh9aHqsuA" name="Ack" type="MESSAGE_QUEUE" direction="OUT" outputActions="_dnfDx867Ee2cioh9aHqsuA" relations="_dnfEvs67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+      <ports xmi:id="_dnfDws67Ee2cioh9aHqsuA" name="Msg" type="MESSAGE_QUEUE" direction="IN" inputActions="_dnfDxs67Ee2cioh9aHqsuA" relations="_dnfEyc67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+      <refinement xsi:type="cofluent:Behavior" xmi:id="_dnfDw867Ee2cioh9aHqsuA" name="ReceiverBh" firstStatement="_dnfDxM67Ee2cioh9aHqsuA">
+        <statements xsi:type="cofluent:Operation" xmi:id="_dnfDxM67Ee2cioh9aHqsuA" name="OpInit" isFirstOf="_dnfDw867Ee2cioh9aHqsuA" next="_dnfDxc67Ee2cioh9aHqsuA" algorithm="&#x9;noise = 0.0;&#xA;&#x9;TestCons = 0.0;&#xA;&#x9;cf_trace_gui_f_t(&quot;TestCons&quot;, TestCons);" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+        <statements xsi:type="cofluent:LoopStatement" xmi:id="_dnfDxc67Ee2cioh9aHqsuA" name="Loop" firstStatement="_dnfDxs67Ee2cioh9aHqsuA" lastStatement="_dnfDx867Ee2cioh9aHqsuA" previous="_dnfDxM67Ee2cioh9aHqsuA" condition=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_dnfDxs67Ee2cioh9aHqsuA" name="InAction" isFirstOf="_dnfDxc67Ee2cioh9aHqsuA" next="_dnfDyM67Ee2cioh9aHqsuA" port="_dnfDws67Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+        <statements xsi:type="cofluent:OutputAction" xmi:id="_dnfDx867Ee2cioh9aHqsuA" name="OutAction" isLastOf="_dnfDxc67Ee2cioh9aHqsuA" previous="_dnfDyM67Ee2cioh9aHqsuA" port="_dnfDwc67Ee2cioh9aHqsuA" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+        <statements xsi:type="cofluent:Operation" xmi:id="_dnfDyM67Ee2cioh9aHqsuA" name="OpDecode" previous="_dnfDxs67Ee2cioh9aHqsuA" next="_dnfDx867Ee2cioh9aHqsuA" algorithm="&#x9;// Adds noise to signal&#xA;&#x9;double t = cf_time_stamp().to_scalar();&#xA;&#x9;noise = (DefValue)(NoiseLevel * sin(0.25 * 3.14 * NoiseLevel*t));&#xA;&#xA;&#x9;TestCons = Msg.Value + noise;&#xA;&#x9;// TestCons value is round down using floor C++ API&#xA;&#x9;cf_trace_gui_f_t(&quot;TestCons&quot;, floor(TestCons));" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Function" xmi:id="_dnfEl867Ee2cioh9aHqsuA" name="Producer" constructor="" includes="" declarations="" cyclePeriod=" ns" affinity="0" priority="1" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+      <ports xmi:id="_dnfEmM67Ee2cioh9aHqsuA" name="Msg" type="MESSAGE_QUEUE" direction="OUT" relations="_dnfEyc67Ee2cioh9aHqsuA" ports="_dnfEps67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+      <ports xmi:id="_dnfEmc67Ee2cioh9aHqsuA" name="Ack" type="MESSAGE_QUEUE" direction="IN" relations="_dnfEvs67Ee2cioh9aHqsuA" ports="_dnfEp867Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_dnfEms67Ee2cioh9aHqsuA" name="ProducerSt">
+        <models xsi:type="cofluent:Function" xmi:id="_dnfEm867Ee2cioh9aHqsuA" name="Generator" constructor="" includes="" destructor="" declarations="" definitions="" preElaboration="" initializations="" cyclePeriod=" ns" affinity="0" priority="1" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+          <ports xmi:id="_dnfEnM67Ee2cioh9aHqsuA" name="Req" type="EVENT" direction="OUT" outputActions="_dnfEo867Ee2cioh9aHqsuA" relations="_dnfEsM67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_dnfEnc67Ee2cioh9aHqsuA" name="DataVar" type="SHARED_VARIABLE" direction="OUT" relations="_dnfEsc67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_dnfEns67Ee2cioh9aHqsuA" name="TestProd" type="SHARED_VARIABLE" direction="OUT" relations="_dnfEs867Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <refinement xsi:type="cofluent:Behavior" xmi:id="_dnfEn867Ee2cioh9aHqsuA" name="GeneratorBh" firstStatement="_dnfEoM67Ee2cioh9aHqsuA">
+            <statements xsi:type="cofluent:Operation" xmi:id="_dnfEoM67Ee2cioh9aHqsuA" name="OpInit" isFirstOf="_dnfEn867Ee2cioh9aHqsuA" next="_dnfEoc67Ee2cioh9aHqsuA" algorithm="&#x9;DataVar = 0.0;&#xA;&#x9;TestProd = DataVar;" executionTime="10 ns" systematicWrite="true" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+            <statements xsi:type="cofluent:LoopStatement" xmi:id="_dnfEoc67Ee2cioh9aHqsuA" name="Loop" firstStatement="_dnfEos67Ee2cioh9aHqsuA" lastStatement="_dnfEo867Ee2cioh9aHqsuA" previous="_dnfEoM67Ee2cioh9aHqsuA"/>
+            <statements xsi:type="cofluent:Operation" xmi:id="_dnfEos67Ee2cioh9aHqsuA" name="OpGen" isFirstOf="_dnfEoc67Ee2cioh9aHqsuA" next="_dnfEo867Ee2cioh9aHqsuA" algorithm="&#x9;// Produces a discrete sinusoidal signal&#xA;&#x9;double f = Frequency.get_value().to_scalar(CF_HZ);&#xA;&#x9;double t = cf_time_stamp().to_scalar();&#xA;&#x9;DataVar = (DefValue)(1000.0 * sin( (2 * 3.14 * f * t)/1000.0 ) );&#xA;&#x9;TestProd = DataVar;" executionTime="100 ns" systematicWrite="true" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+            <statements xsi:type="cofluent:OutputAction" xmi:id="_dnfEo867Ee2cioh9aHqsuA" name="OutAction" isLastOf="_dnfEoc67Ee2cioh9aHqsuA" previous="_dnfEos67Ee2cioh9aHqsuA" port="_dnfEnM67Ee2cioh9aHqsuA" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+          </refinement>
+        </models>
+        <models xsi:type="cofluent:Function" xmi:id="_dnfEpM67Ee2cioh9aHqsuA" name="Sender" constructor="" includes="" destructor="" declarations="" definitions="" preElaboration="" initializations="" cyclePeriod=" ns" affinity="1" priority="1" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+          <ports xmi:id="_dnfEpc67Ee2cioh9aHqsuA" name="Req" type="EVENT" direction="IN" inputActions="_dnfErM67Ee2cioh9aHqsuA" relations="_dnfEsM67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_dnfEps67Ee2cioh9aHqsuA" name="Msg" type="MESSAGE_QUEUE" direction="OUT" outputActions="_dnfEr867Ee2cioh9aHqsuA" port="_dnfEmM67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_dnfEp867Ee2cioh9aHqsuA" name="Ack" type="MESSAGE_QUEUE" direction="IN" inputActions="_dnfErs67Ee2cioh9aHqsuA" port="_dnfEmc67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <ports xmi:id="_dnfEqM67Ee2cioh9aHqsuA" name="DataVar" type="SHARED_VARIABLE" direction="IN" inputActions="_dnfErc67Ee2cioh9aHqsuA" relations="_dnfEsc67Ee2cioh9aHqsuA" synchronizeName="true" vector="false"/>
+          <refinement xsi:type="cofluent:Behavior" xmi:id="_dnfEqc67Ee2cioh9aHqsuA" name="SenderBh" firstStatement="_dnfEq867Ee2cioh9aHqsuA">
+            <statements xsi:type="cofluent:Operation" xmi:id="_dnfEqs67Ee2cioh9aHqsuA" name="OpEncode" previous="_dnfErc67Ee2cioh9aHqsuA" next="_dnfEr867Ee2cioh9aHqsuA" algorithm="&#x9;Msg.Value = DataVar;" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+            <statements xsi:type="cofluent:LoopStatement" xmi:id="_dnfEq867Ee2cioh9aHqsuA" name="Loop" isFirstOf="_dnfEqc67Ee2cioh9aHqsuA" firstStatement="_dnfErM67Ee2cioh9aHqsuA" lastStatement="_dnfErs67Ee2cioh9aHqsuA"/>
+            <statements xsi:type="cofluent:InputAction" xmi:id="_dnfErM67Ee2cioh9aHqsuA" name="InAction" isFirstOf="_dnfEq867Ee2cioh9aHqsuA" next="_dnfErc67Ee2cioh9aHqsuA" port="_dnfEpc67Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+            <statements xsi:type="cofluent:InputAction" xmi:id="_dnfErc67Ee2cioh9aHqsuA" name="InAction2" previous="_dnfErM67Ee2cioh9aHqsuA" next="_dnfEqs67Ee2cioh9aHqsuA" port="_dnfEqM67Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+            <statements xsi:type="cofluent:InputAction" xmi:id="_dnfErs67Ee2cioh9aHqsuA" name="InAction3" isLastOf="_dnfEq867Ee2cioh9aHqsuA" previous="_dnfEr867Ee2cioh9aHqsuA" port="_dnfEp867Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+            <statements xsi:type="cofluent:OutputAction" xmi:id="_dnfEr867Ee2cioh9aHqsuA" name="OutAction" previous="_dnfEqs67Ee2cioh9aHqsuA" next="_dnfErs67Ee2cioh9aHqsuA" port="_dnfEps67Ee2cioh9aHqsuA" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+          </refinement>
+        </models>
+        <relations xsi:type="cofluent:Event" xmi:id="_dnfEsM67Ee2cioh9aHqsuA" name="Req" ports="_dnfEnM67Ee2cioh9aHqsuA _dnfEpc67Ee2cioh9aHqsuA" setTime="1 ns" getTime="1 ns"/>
+        <relations xsi:type="cofluent:SharedVariable" xmi:id="_dnfEsc67Ee2cioh9aHqsuA" name="DataVar" ports="_dnfEnc67Ee2cioh9aHqsuA _dnfEqM67Ee2cioh9aHqsuA" concurrency="1" counter="1" writeTime="1 ns" readTime="1 ns">
+          <relationType xsi:type="cofluent:RelationDataType" xmi:id="_dnfEss67Ee2cioh9aHqsuA" dataType="_dnjVMM67Ee2cioh9aHqsuA"/>
+        </relations>
+        <relations xsi:type="cofluent:SharedVariable" xmi:id="_dnfEs867Ee2cioh9aHqsuA" name="TestProd" ports="_dnfEns67Ee2cioh9aHqsuA" concurrency="1" counter="1" writeTime="1 ns" readTime="1 ns">
+          <relationType xsi:type="cofluent:RelationDataType" xmi:id="_dnfEtM67Ee2cioh9aHqsuA" dataType="_dnjVMc67Ee2cioh9aHqsuA"/>
+        </relations>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Function" xmi:id="_sfeLsM67Ee2cioh9aHqsuA" name="FunctionLeft" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+      <ports xmi:id="_VBhBkM69Ee2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="OUT" outputSelectorOutputs="_VBhooM69Ee2cioh9aHqsuA" relations="_UIzQ4M69Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_Y2iLUM69Ee2cioh9aHqsuA" name="Pipeline" type="PIPELINE" direction="OUT" outputActions="_YFJxsM69Ee2cioh9aHqsuA" relations="_3itPoM67Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_qS3_AM7AEe2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="IN" inputActions="_Dv2lIM7AEe2cioh9aHqsuA" relations="_UIzQ4M69Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_vh4lEM7BEe2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="IN" inputActions="_odbq4M7BEe2cioh9aHqsuA" relations="_UIzQ4M69Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <refinement xsi:type="cofluent:Behavior" xmi:id="_UcxyQM68Ee2cioh9aHqsuA" name="FunctionLeftBh" firstStatement="_UcyZUM68Ee2cioh9aHqsuA">
+        <selectors xsi:type="cofluent:MultiInstancesOutputSelector" xmi:id="_ZrD1AM68Ee2cioh9aHqsuA" name="InstanceOutSelector" instanceNumber="SELF" outputAction="_iW6OAM7AEe2cioh9aHqsuA">
+          <output xmi:id="_VBhooM69Ee2cioh9aHqsuA" name="OutputSelectorOutput" port="_VBhBkM69Ee2cioh9aHqsuA"/>
+        </selectors>
+        <statements xsi:type="cofluent:AlternativeStatement" xmi:id="_UcyZUM68Ee2cioh9aHqsuA" name="Alternative" isFirstOf="_UcxyQM68Ee2cioh9aHqsuA" next="_YFJxsM69Ee2cioh9aHqsuA">
+          <conditionalBranches xmi:id="_I1E54M69Ee2cioh9aHqsuA" name="Branch2" firstStatement="_ITLGsM69Ee2cioh9aHqsuA" lastStatement="_ITLGsM69Ee2cioh9aHqsuA"/>
+          <conditionalBranches xmi:id="_izpNUM7AEe2cioh9aHqsuA" name="Branch3" firstStatement="_iW6OAM7AEe2cioh9aHqsuA" lastStatement="_vvsw4M68Ee2cioh9aHqsuA" condition="1"/>
+        </statements>
+        <statements xsi:type="cofluent:MultipleGuardedStatement" xmi:id="_vvsw4M68Ee2cioh9aHqsuA" name="MultipleWait" isLastOf="_izpNUM7AEe2cioh9aHqsuA" previous="_iW6OAM7AEe2cioh9aHqsuA">
+          <guardedBranches xmi:id="_H2H28M7AEe2cioh9aHqsuA" name="Branch2" firstStatement="_Dv2lIM7AEe2cioh9aHqsuA" lastStatement="_Dv2lIM7AEe2cioh9aHqsuA"/>
+          <guardedBranches xmi:id="_p3LsEM7BEe2cioh9aHqsuA" name="Branch" firstStatement="_odbq4M7BEe2cioh9aHqsuA" lastStatement="_odbq4M7BEe2cioh9aHqsuA"/>
+        </statements>
+        <statements xsi:type="cofluent:Operation" xmi:id="_ITLGsM69Ee2cioh9aHqsuA" name="Operation" isFirstOf="_I1E54M69Ee2cioh9aHqsuA" isLastOf="_I1E54M69Ee2cioh9aHqsuA" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+        <statements xsi:type="cofluent:OutputAction" xmi:id="_YFJxsM69Ee2cioh9aHqsuA" name="OutAction2" previous="_UcyZUM68Ee2cioh9aHqsuA" port="_Y2iLUM69Ee2cioh9aHqsuA" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_Dv2lIM7AEe2cioh9aHqsuA" name="InAction" isFirstOf="_H2H28M7AEe2cioh9aHqsuA" isLastOf="_H2H28M7AEe2cioh9aHqsuA" port="_qS3_AM7AEe2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+        <statements xsi:type="cofluent:OutputAction" xmi:id="_iW6OAM7AEe2cioh9aHqsuA" name="OutAction" isFirstOf="_izpNUM7AEe2cioh9aHqsuA" next="_vvsw4M68Ee2cioh9aHqsuA" outputSelector="_ZrD1AM68Ee2cioh9aHqsuA" duration=" ns" condition="" priority="" vectorSize="" blocking="true" call=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_odbq4M7BEe2cioh9aHqsuA" name="InAction2" isFirstOf="_p3LsEM7BEe2cioh9aHqsuA" isLastOf="_p3LsEM7BEe2cioh9aHqsuA" port="_vh4lEM7BEe2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:ClockGenerator" xmi:id="_ue5FwM67Ee2cioh9aHqsuA" name="Clock" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" period="1 us" offset="1 us" executionTime="10 ns">
+      <ports xmi:id="_-_AhwM6-Ee2cioh9aHqsuA" name="Event" type="EVENT" direction="OUT" relations="_-lMTkM6-Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+    </models>
+    <models xsi:type="cofluent:Divider" xmi:id="_vZzO0M67Ee2cioh9aHqsuA" name="Divider" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" ratio="1" executionTime="10 ns">
+      <ports xmi:id="_H05kYM6_Ee2cioh9aHqsuA" name="Event" type="EVENT" direction="IN" relations="_-lMTkM6-Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_IxKYUM6_Ee2cioh9aHqsuA" name="Event2" type="EVENT" direction="OUT" relations="_IWSaMM6_Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+    </models>
+    <models xsi:type="cofluent:RoutingFunction" xmi:id="_wAL5YM67Ee2cioh9aHqsuA" name="RoutingFunction" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1" routingTime="10 ns">
+      <ports xmi:id="_LXMmcM6_Ee2cioh9aHqsuA" name="Event2" type="EVENT" direction="IN" relations="_IWSaMM6_Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_M9mjkM6_Ee2cioh9aHqsuA" name="Event3" type="EVENT" direction="OUT" relations="_MRK7YM6_Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+    </models>
+    <models xsi:type="cofluent:SampledFunction" xmi:id="_xAWV4M67Ee2cioh9aHqsuA" name="Sampled" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" period="1 us" offset="1 us">
+      <ports xmi:id="_Inv4cM7REe2cioh9aHqsuA" name="MsgQ2" type="MESSAGE_QUEUE" direction="IN" inputActions="_G7mfsM7REe2cioh9aHqsuA" relations="_H2qZwM7REe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <refinement xsi:type="cofluent:Behavior" xmi:id="_xAdDkc67Ee2cioh9aHqsuA" name="SampledBh" firstStatement="_G7mfsM7REe2cioh9aHqsuA">
+        <statements xsi:type="cofluent:InputAction" xmi:id="_G7mfsM7REe2cioh9aHqsuA" name="InAction" isFirstOf="_xAdDkc67Ee2cioh9aHqsuA" port="_Inv4cM7REe2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:DeviceProgrammersView" xmi:id="_58TkQM67Ee2cioh9aHqsuA" name="DPV_A" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" address="">
+      <registers xmi:id="_YOqBEM6_Ee2cioh9aHqsuA" name="RegisterB" access="READ_WRITE" address="0x1" defaultValue="0xCAFECAFE" description="" size="0x8" wordSize="EIGHT" linkedWithPort="false" instanceNumber="">
+        <internalRead xmi:id="_YOsdUM6_Ee2cioh9aHqsuA" before=""/>
+        <internalWrite xmi:id="_YOsdUc6_Ee2cioh9aHqsuA" before=""/>
+        <read xmi:id="_YOrPMM6_Ee2cioh9aHqsuA" before=""/>
+        <write xmi:id="_YOr2QM6_Ee2cioh9aHqsuA" before=""/>
+        <fields xmi:id="_aDifEM6_Ee2cioh9aHqsuA" name="FieldA" description="" externalAccess="READ_WRITE" internalAccess="READ_WRITE" offset="0x8" width="0x10">
+          <internalRead xmi:id="_aDkUQc6_Ee2cioh9aHqsuA" before=""/>
+          <internalWrite xmi:id="_aDk7UM6_Ee2cioh9aHqsuA" before=""/>
+          <read xmi:id="_aDjtMM6_Ee2cioh9aHqsuA" before=""/>
+          <write xmi:id="_aDkUQM6_Ee2cioh9aHqsuA" before=""/>
+        </fields>
+        <resetDomains>resetDomainR1Rb1</resetDomains>
+      </registers>
+      <registerBanks xmi:id="_Xqp8IM6_Ee2cioh9aHqsuA" name="RegisterBankA" address="0x10">
+        <internalRead xmi:id="_Xqu0oc6_Ee2cioh9aHqsuA" before=""/>
+        <internalWrite xmi:id="_XqvbsM6_Ee2cioh9aHqsuA" before=""/>
+        <read xmi:id="_XquNkM6_Ee2cioh9aHqsuA" before=""/>
+        <write xmi:id="_Xqu0oM6_Ee2cioh9aHqsuA" before=""/>
+        <registers xmi:id="_ZazrIM6_Ee2cioh9aHqsuA" name="RegisterA" access="READ_WRITE" address="0x1" defaultValue="0xCAFECAFE" description="" size="0x8" wordSize="EIGHT" linkedWithPort="false" instanceNumber="">
+          <internalRead xmi:id="_Za0SMc6_Ee2cioh9aHqsuA" before=""/>
+          <internalWrite xmi:id="_Za05QM6_Ee2cioh9aHqsuA" before=""/>
+          <read xmi:id="_ZazrIc6_Ee2cioh9aHqsuA" before=""/>
+          <write xmi:id="_Za0SMM6_Ee2cioh9aHqsuA" before=""/>
+          <resetDomains>resetDomainR1Rb1</resetDomains>
+        </registers>
+        <resetDomains>resetDomainRb1</resetDomains>
+      </registerBanks>
+      <interrupts xmi:id="_YncUgM6_Ee2cioh9aHqsuA" name="InterruptA" defaultValue="">
+        <enable xmi:id="_YndioM6_Ee2cioh9aHqsuA" before=""/>
+        <disable xmi:id="_YneJsM6_Ee2cioh9aHqsuA" before=""/>
+        <internalEnable xmi:id="_YneJsc6_Ee2cioh9aHqsuA" before=""/>
+        <internalDisable xmi:id="_YnewwM6_Ee2cioh9aHqsuA" before=""/>
+        <internalRaise xmi:id="_Ynf-4M6_Ee2cioh9aHqsuA" before=""/>
+        <clear xmi:id="_Ynewwc6_Ee2cioh9aHqsuA" before=""/>
+        <internalClear xmi:id="_YnfX0c6_Ee2cioh9aHqsuA" before=""/>
+        <raise xmi:id="_YnfX0M6_Ee2cioh9aHqsuA" before=""/>
+      </interrupts>
+      <commands xmi:id="_ZEW6AM6_Ee2cioh9aHqsuA" name="CommandA" description="" source="" lengthBias=""/>
+    </models>
+    <models xsi:type="cofluent:SystemCIP" xmi:id="_-jbgZc67Ee2cioh9aHqsuA" name="SystemCIP" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" className="addition" generateInclude="true" includeFile="">
+      <ports xmi:id="_42zGAM7BEe2cioh9aHqsuA" name="p_initSocket" type="BINDING_CONNECTION" direction="UNDEFINED" relations="_42zGAs7BEe2cioh9aHqsuA" size="" synchronizeName="true" protocol="SIGNAL" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_Qib04M7CEe2cioh9aHqsuA" name="MCI" type="METHOD_CALL_INTERFACE" direction="OUT" relations="_PrCS0M7CEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <arguments></arguments>
+      <templateArguments></templateArguments>
+    </models>
+    <models xsi:type="cofluent:Function" xmi:id="_VauoW868Ee2cioh9aHqsuA" name="FunctionRight" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+      <ports xmi:id="_UtD0gM69Ee2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="IN" inputSelectorInputs="_UtEbkM69Ee2cioh9aHqsuA" relations="_UIzQ4M69Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_WBX8EM69Ee2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="IN" inputSelectorInputs="_WBYjIM69Ee2cioh9aHqsuA" relations="_UIzQ4M69Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_WatpIM69Ee2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="IN" inputSelectorInputs="_WauQMM69Ee2cioh9aHqsuA" relations="_UIzQ4M69Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_ZGU60M69Ee2cioh9aHqsuA" name="Pipeline" type="PIPELINE" direction="IN" inputActions="_XvY9EM69Ee2cioh9aHqsuA" relations="_3itPoM67Ee2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <refinement xsi:type="cofluent:Behavior" xmi:id="_VauoXM68Ee2cioh9aHqsuA" name="FunctionRightBh" firstStatement="_L5xZ8M69Ee2cioh9aHqsuA">
+        <selectors xsi:type="cofluent:MultiInstancesInputSelector" xmi:id="_YMhacM68Ee2cioh9aHqsuA" name="InstanceInSelector" inputAction="_L5xZ8M69Ee2cioh9aHqsuA" instanceNumber="SELF">
+          <inputs xmi:id="_UtEbkM69Ee2cioh9aHqsuA" name="InputSelectorInput" port="_UtD0gM69Ee2cioh9aHqsuA" priority="" timeout=" ns" duration=" ns" condition="" vectorSize=""/>
+        </selectors>
+        <selectors xsi:type="cofluent:AndInputSelector" xmi:id="_YowDcM68Ee2cioh9aHqsuA" name="InSelector" inputAction="_MDTwcM69Ee2cioh9aHqsuA">
+          <inputs xmi:id="_WBYjIM69Ee2cioh9aHqsuA" name="InputSelectorInput" port="_WBX8EM69Ee2cioh9aHqsuA" priority="" timeout=" ns" duration=" ns" condition="" vectorSize=""/>
+        </selectors>
+        <selectors xsi:type="cofluent:OrInputSelector" xmi:id="_ZaWfgM68Ee2cioh9aHqsuA" name="InSelector2" inputAction="_MJB98M69Ee2cioh9aHqsuA">
+          <inputs xmi:id="_WauQMM69Ee2cioh9aHqsuA" name="InputSelectorInput" port="_WatpIM69Ee2cioh9aHqsuA" priority="" timeout=" ns" duration=" ns" condition="" vectorSize=""/>
+        </selectors>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_L5xZ8M69Ee2cioh9aHqsuA" name="InAction" isFirstOf="_VauoXM68Ee2cioh9aHqsuA" next="_MDTwcM69Ee2cioh9aHqsuA" inputSelector="_YMhacM68Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_MDTwcM69Ee2cioh9aHqsuA" name="InAction2" previous="_L5xZ8M69Ee2cioh9aHqsuA" next="_MJB98M69Ee2cioh9aHqsuA" inputSelector="_YowDcM68Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_MJB98M69Ee2cioh9aHqsuA" name="InAction3" previous="_MDTwcM69Ee2cioh9aHqsuA" next="_XvY9EM69Ee2cioh9aHqsuA" inputSelector="_ZaWfgM68Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+        <statements xsi:type="cofluent:InputAction" xmi:id="_XvY9EM69Ee2cioh9aHqsuA" name="InAction4" previous="_MJB98M69Ee2cioh9aHqsuA" port="_ZGU60M69Ee2cioh9aHqsuA" timeout=" ns" priority="" duration=" ns" vectorSize="" blocking="true" condition=""/>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:SystemCIP" xmi:id="_4aLbcM7BEe2cioh9aHqsuA" name="SystemCIP2" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" className="addition" generateInclude="true" includeFile="">
+      <ports xmi:id="_42zGAc7BEe2cioh9aHqsuA" name="p_targetSocket" type="BINDING_CONNECTION" direction="UNDEFINED" relations="_42zGAs7BEe2cioh9aHqsuA" size="" synchronizeName="true" protocol="SIGNAL" socketType="TARGET" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_Q56gwM7CEe2cioh9aHqsuA" name="MCI" type="METHOD_CALL_INTERFACE" direction="IN" relations="_PrCS0M7CEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <arguments></arguments>
+      <templateArguments></templateArguments>
+    </models>
+    <models xsi:type="cofluent:Function" xmi:id="_D6gtQs7REe2cioh9aHqsuA" name="ReProducer" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+      <ports xmi:id="_D6gtQ87REe2cioh9aHqsuA" name="MsgQ" type="MESSAGE_QUEUE" direction="OUT" relations="_H2qZwM7REe2cioh9aHqsuA" synchronizeName="true" vector="false">
+        <reuse href="reuse://_D6dp8M7REe2cioh9aHqsuA/AllInOne/AllInOne/models/AllInOneReuse.cf_app#_x_3FkM7QEe2cioh9aHqsuA"/>
+      </ports>
+      <reuse xsi:type="cofluent:Function" href="reuse://_D6dp8M7REe2cioh9aHqsuA/AllInOne/AllInOne/models/AllInOneReuse.cf_app#_t3uLgM7QEe2cioh9aHqsuA"/>
+    </models>
+    <models xsi:type="cofluent:Function" xmi:id="_WGA0IM9wEe2cioh9aHqsuA" name="MultiParent" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+      <max xmi:id="_eug7Ac9wEe2cioh9aHqsuA" integerLimit="3"/>
+      <min xmi:id="_eug7AM9wEe2cioh9aHqsuA" integerLimit="0"/>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_WP4h0M9wEe2cioh9aHqsuA" name="MultiParentSt">
+        <models xsi:type="cofluent:Function" xmi:id="_WP4h0c9wEe2cioh9aHqsuA" name="MultiChild" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" affinity="" priority="0" schedulingPolicy="FIFO" InterfaceBlockingBehavior="RELEASE_CORE" timeSlicePeriod="10 ms" staticCodeSize="0 kB" staticDataSize="0 kB" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" coSimulationType="NONE_COSIM">
+          <max xmi:id="_hqMpAc9wEe2cioh9aHqsuA" integerLimit="2"/>
+          <min xmi:id="_hqMpAM9wEe2cioh9aHqsuA" integerLimit="0"/>
+          <refinement xsi:type="cofluent:Behavior" xmi:id="_XrmR4M9wEe2cioh9aHqsuA" name="MultiChildBh" firstStatement="_XrmR4c9wEe2cioh9aHqsuA">
+            <statements xsi:type="cofluent:Operation" xmi:id="_XrmR4c9wEe2cioh9aHqsuA" name="Operation" isFirstOf="_XrmR4M9wEe2cioh9aHqsuA" executionTime="10 ns" dynamicDataSize="0 kB" dynamicPowerConsumption=" uW" dynamicResourceLoad=""/>
+          </refinement>
+        </models>
+      </refinement>
+    </models>
+    <relations xsi:type="cofluent:MessageQueue" xmi:id="_dnfEvs67Ee2cioh9aHqsuA" name="Ack" ports="_dnfEmc67Ee2cioh9aHqsuA _dnfDwc67Ee2cioh9aHqsuA" capacity="1" concurrency="1" concurrencyManagement="FULL" sendTime="1 ns" receiveTime="1 ns" sendThreshold="1" receiveThreshold="1" address="" mask="" messageQueueType="STANDARD">
+      <relationType xsi:type="cofluent:RelationDataType" xmi:id="_dnfEv867Ee2cioh9aHqsuA" dataType="_dnjVMs67Ee2cioh9aHqsuA"/>
+    </relations>
+    <relations xsi:type="cofluent:MessageQueue" xmi:id="_dnfEyc67Ee2cioh9aHqsuA" name="Msg" ports="_dnfDws67Ee2cioh9aHqsuA _dnfEmM67Ee2cioh9aHqsuA" capacity="1" concurrency="1" concurrencyManagement="FULL" sendTime="1 ns" receiveTime="1 ns" sendThreshold="1" receiveThreshold="1" address="" mask="" messageQueueType="STANDARD">
+      <relationType xsi:type="cofluent:RelationDataType" xmi:id="_dnfEys67Ee2cioh9aHqsuA" dataType="_dnjVM867Ee2cioh9aHqsuA"/>
+    </relations>
+    <relations xsi:type="cofluent:Pipeline" xmi:id="_3itPoM67Ee2cioh9aHqsuA" name="Pipeline" ports="_Y2iLUM69Ee2cioh9aHqsuA _ZGU60M69Ee2cioh9aHqsuA" numberOfStages="2" stageDuration="1 ns">
+      <relationType xsi:type="cofluent:RelationPredefinedType" xmi:id="_3itPoc67Ee2cioh9aHqsuA"/>
+    </relations>
+    <relations xsi:type="cofluent:MessageQueue" xmi:id="_UIzQ4M69Ee2cioh9aHqsuA" name="MsgQ" ports="_UtD0gM69Ee2cioh9aHqsuA _VBhBkM69Ee2cioh9aHqsuA _WBX8EM69Ee2cioh9aHqsuA _WatpIM69Ee2cioh9aHqsuA _qS3_AM7AEe2cioh9aHqsuA _vh4lEM7BEe2cioh9aHqsuA" capacity="1" concurrency="1" concurrencyManagement="FULL" sendTime="1 ns" receiveTime="1 ns" sendThreshold="1" receiveThreshold="1" address="" mask="" messageQueueType="STANDARD" cosimChiselDataPortBits="">
+      <relationType xsi:type="cofluent:RelationExternalType" xmi:id="_dSBtoNT8Ee2yxOGdKmixag" name="Extenal" nonPodType="true"/>
+    </relations>
+    <relations xsi:type="cofluent:Event" xmi:id="_-lMTkM6-Ee2cioh9aHqsuA" name="Event" ports="_-_AhwM6-Ee2cioh9aHqsuA _H05kYM6_Ee2cioh9aHqsuA" setTime="1 ns" getTime="1 ns"/>
+    <relations xsi:type="cofluent:Event" xmi:id="_IWSaMM6_Ee2cioh9aHqsuA" name="Event2" ports="_IxKYUM6_Ee2cioh9aHqsuA _LXMmcM6_Ee2cioh9aHqsuA" setTime="1 ns" getTime="1 ns"/>
+    <relations xsi:type="cofluent:Event" xmi:id="_MRK7YM6_Ee2cioh9aHqsuA" name="Event3" ports="_M9mjkM6_Ee2cioh9aHqsuA" setTime="1 ns" getTime="1 ns"/>
+    <relations xsi:type="cofluent:BindingConnection" xmi:id="_42zGAs7BEe2cioh9aHqsuA" name="Bind" ports="_42zGAM7BEe2cioh9aHqsuA _42zGAc7BEe2cioh9aHqsuA"/>
+    <relations xsi:type="cofluent:MethodCallInterface" xmi:id="_PrCS0M7CEe2cioh9aHqsuA" name="MCI" ports="_Q56gwM7CEe2cioh9aHqsuA _Qib04M7CEe2cioh9aHqsuA"/>
+    <relations xsi:type="cofluent:MessageQueue" xmi:id="_H2qZwM7REe2cioh9aHqsuA" name="MsgQ2" ports="_D6gtQ87REe2cioh9aHqsuA _Inv4cM7REe2cioh9aHqsuA" capacity="1" concurrency="1" concurrencyManagement="FULL" sendTime="1 ns" receiveTime="1 ns" sendThreshold="1" receiveThreshold="1" address="" mask="" messageQueueType="STANDARD" cosimChiselDataPortBits="">
+      <max xmi:id="_b12TwOTEEe2F86a8Qxs6lg" integerLimit="4"/>
+      <min xmi:id="_b11FoOTEEe2F86a8Qxs6lg" integerLimit="0"/>
+      <relationType xsi:type="cofluent:RelationPredefinedType" xmi:id="_IZQJcM7REe2cioh9aHqsuA"/>
+    </relations>
+  </refinement>
+  <parameterFolders xmi:id="_PAStYNT8Ee2yxOGdKmixag" name="DPFolder">
+    <designParameters xsi:type="cofluent:BooleanParameter" xmi:id="_R9dCENT8Ee2yxOGdKmixag" name="Boolean" default="false" visibility="PUBLIC" accessRight="READ_WRITE"/>
+  </parameterFolders>
+</cofluent:Application>

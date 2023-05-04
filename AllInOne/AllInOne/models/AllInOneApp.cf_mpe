@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mpe:Exploration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmlns:mpe="http://cofluent.intel.com/mpe/1.0.0" argument="--cf-sim-duration=&quot;1ms&quot; --cf-verbosity=error --cf-lic-location=&quot;@localhost&quot;" parallelNumber="1" pythonProjectName="scenariosPlayer">
+  <model xsi:type="cofluent:Application" href="AllInOneApp.cf_app#_NhKgcM67Ee2cioh9aHqsuA"/>
+</mpe:Exploration>

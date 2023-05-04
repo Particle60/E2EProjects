@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<charts:ArchitectureProfilingChart xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:charts="http://cofluent.intel.com/charts/1.0.0" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" rangeTime="false" locked="false" internalUnit="US" zoomRange="false" fillColor="-1" captionPosition="SOUTH" grid="false" path="" defaultPath="true" memoryUnit="KBYTES" powerUnit="UW" costUnit="DOLLARS">
+  <probes xsi:type="charts:StaticProbe" messageCount="true" probedInstance="//@instance/@children.3" showProcessor="false">
+    <element xsi:type="cofluent:Bus" href="../PlatformModel.cf_plf#_afD2cCG3EeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" probedInstance="//@instance/@children.2/@children.0" showProcessor="false">
+    <element xsi:type="cofluent:SlaveInterface" href="../PlatformModel.cf_plf#_gsm90CG3EeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" probedInstance="//@instance/@children.1" showProcessor="false">
+    <element xsi:type="cofluent:Processor" href="../PlatformModel.cf_plf#_Qdfq4CG3EeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" probedInstance="//@instance/@children.0" showProcessor="false">
+    <element xsi:type="cofluent:Processor" href="../PlatformModel.cf_plf#_kay8QCG2EeaaOsqBPt_qWw"/>
+  </probes>
+  <model xsi:type="cofluent:Mapping" href="../MappingModelRefinement.cf_map#_phcPgCHCEeabQeYe_jeiMw"/>
+  <instance rangeType="INT">
+    <element xsi:type="cofluent:Platform" href="../PlatformModel.cf_plf#_-PZ2QBhUEeaRJZtBX_vAyA"/>
+    <children rangeType="INT">
+      <element xsi:type="cofluent:Processor" href="../PlatformModel.cf_plf#_kay8QCG2EeaaOsqBPt_qWw"/>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:MasterInterface" href="../PlatformModel.cf_plf#_l-im8SG2EeaaOsqBPt_qWw"/>
+      </children>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:MasterInterface" href="../PlatformModel.cf_plf#_o4GOACG2EeaaOsqBPt_qWw"/>
+      </children>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:SlaveInterface" href="../PlatformModel.cf_plf#__TW6ICG2EeaaOsqBPt_qWw"/>
+      </children>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:Scheduler" href="../PlatformModel.cf_plf#_MbPWYCG3EeaaOsqBPt_qWw"/>
+        <children rangeType="INT">
+          <element xsi:type="cofluent:Instance" href="../MappingModelRefinement.cf_map#_phcPgiHCEeabQeYe_jeiMw"/>
+          <children rangeType="INT">
+            <element xsi:type="cofluent:Instance" href="../MappingModelRefinement.cf_map#_phcPgyHCEeabQeYe_jeiMw"/>
+          </children>
+          <children rangeType="INT">
+            <element xsi:type="cofluent:Instance" href="../MappingModelRefinement.cf_map#_phcPhCHCEeabQeYe_jeiMw"/>
+          </children>
+        </children>
+      </children>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:MasterInterface" href="../PlatformModel.cf_plf#_hB27cCG_EeaaOsqBPt_qWw"/>
+      </children>
+    </children>
+    <children rangeType="INT">
+      <element xsi:type="cofluent:Processor" href="../PlatformModel.cf_plf#_Qdfq4CG3EeaaOsqBPt_qWw"/>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:SlaveInterface" href="../PlatformModel.cf_plf#_THyG5SG3EeaaOsqBPt_qWw"/>
+      </children>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:MasterInterface" href="../PlatformModel.cf_plf#_pQX1ACG_EeaaOsqBPt_qWw"/>
+      </children>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:Instance" href="../MappingModelRefinement.cf_map#_phcPiCHCEeabQeYe_jeiMw"/>
+      </children>
+    </children>
+    <children rangeType="INT">
+      <element xsi:type="cofluent:Memory" href="../PlatformModel.cf_plf#_fvaVwCG3EeaaOsqBPt_qWw"/>
+      <children rangeType="INT">
+        <element xsi:type="cofluent:SlaveInterface" href="../PlatformModel.cf_plf#_gsm90CG3EeaaOsqBPt_qWw"/>
+      </children>
+    </children>
+    <children rangeType="INT">
+      <element xsi:type="cofluent:Bus" href="../PlatformModel.cf_plf#_afD2cCG3EeaaOsqBPt_qWw"/>
+    </children>
+  </instance>
+  <powerChart internalUnit="W" occurrence="1"/>
+  <loadChart occurrence="1"/>
+  <memoryChart internalUnit="BYTES" occurrence="1"/>
+</charts:ArchitectureProfilingChart>

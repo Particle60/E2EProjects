@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:Platform xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_jFUSgM7IEe2cioh9aHqsuA" name="tmp" version="8.1.1_r1_nolic_287" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod="10 ns" voltage="3 V">
+  <refinement xsi:type="cofluent:Structure" xmi:id="_jFU5kM7IEe2cioh9aHqsuA" name="tmpSt"/>
+</cofluent:Platform>

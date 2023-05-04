@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_jFU5kc7IEe2cioh9aHqsuA" visible="true" type="CofluentPlatform" name="tmp.cf_plf_di#_jFU5kM7IEe2cioh9aHqsuA" measurementUnit="Pixel">
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_jFU5ks7IEe2cioh9aHqsuA" pageX="0" pageY="0" pageWidth="100" pageHeight="100" description=""/>
+  <element href="tmp.cf_plf#_jFU5kM7IEe2cioh9aHqsuA"/>
+</notation:Diagram>

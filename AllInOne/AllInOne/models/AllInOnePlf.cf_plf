@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:Platform xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_NhjiAM67Ee2cioh9aHqsuA" name="AllInOnePlf" version="8.1.1_r1_nolic_287" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod="10 ns" voltage="3 V">
+  <communicationPaths xmi:id="_gWiKWM7DEe2cioh9aHqsuA" first="_gWiKWc7DEe2cioh9aHqsuA">
+    <elements xmi:id="_gWiKWc7DEe2cioh9aHqsuA" next="_gWiKWs7DEe2cioh9aHqsuA" element="_dDd3ic7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_gWiKWs7DEe2cioh9aHqsuA" previous="_gWiKWc7DEe2cioh9aHqsuA" next="_gWiKW87DEe2cioh9aHqsuA" element="_dDd3j87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_gWiKW87DEe2cioh9aHqsuA" previous="_gWiKWs7DEe2cioh9aHqsuA" next="_gWiKXM7DEe2cioh9aHqsuA" element="_dDd3m87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_gWiKXM7DEe2cioh9aHqsuA" previous="_gWiKW87DEe2cioh9aHqsuA" next="_gWiKXc7DEe2cioh9aHqsuA" element="_dDd3X87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_gWiKXc7DEe2cioh9aHqsuA" previous="_gWiKXM7DEe2cioh9aHqsuA" element="_dDd3Vc7DEe2cioh9aHqsuA"/>
+  </communicationPaths>
+  <communicationPaths xmi:id="_wvZ2ZM7DEe2cioh9aHqsuA" first="_wvZ2Zc7DEe2cioh9aHqsuA">
+    <elements xmi:id="_wvZ2Zc7DEe2cioh9aHqsuA" next="_wvZ2Zs7DEe2cioh9aHqsuA" element="_dDd3Vc7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_wvZ2Zs7DEe2cioh9aHqsuA" previous="_wvZ2Zc7DEe2cioh9aHqsuA" next="_wvZ2Z87DEe2cioh9aHqsuA" element="_dDd3W87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_wvZ2Z87DEe2cioh9aHqsuA" previous="_wvZ2Zs7DEe2cioh9aHqsuA" next="_wvZ2aM7DEe2cioh9aHqsuA" element="_dDd3m87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_wvZ2aM7DEe2cioh9aHqsuA" previous="_wvZ2Z87DEe2cioh9aHqsuA" next="_wvZ2ac7DEe2cioh9aHqsuA" element="_dDd3jc7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_wvZ2ac7DEe2cioh9aHqsuA" previous="_wvZ2aM7DEe2cioh9aHqsuA" element="_dDd3ic7DEe2cioh9aHqsuA"/>
+  </communicationPaths>
+  <communicationPaths xmi:id="_sOzjYM7EEe2cioh9aHqsuA" first="_sOzjYc7EEe2cioh9aHqsuA">
+    <elements xmi:id="_sOzjYc7EEe2cioh9aHqsuA" next="_sOzjYs7EEe2cioh9aHqsuA" element="_dDd3Vc7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_sOzjYs7EEe2cioh9aHqsuA" previous="_sOzjYc7EEe2cioh9aHqsuA" next="_sOzjY87EEe2cioh9aHqsuA" element="_dDd3Ys7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_sOzjY87EEe2cioh9aHqsuA" previous="_sOzjYs7EEe2cioh9aHqsuA" next="_sOzjZM7EEe2cioh9aHqsuA" element="_dDd3m87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_sOzjZM7EEe2cioh9aHqsuA" previous="_sOzjY87EEe2cioh9aHqsuA" next="_sOzjZc7EEe2cioh9aHqsuA" element="_dDd3E87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_sOzjZc7EEe2cioh9aHqsuA" previous="_sOzjZM7EEe2cioh9aHqsuA" element="_dDd3EM7DEe2cioh9aHqsuA"/>
+  </communicationPaths>
+  <communicationPaths xmi:id="_YYEQMM7JEe2cioh9aHqsuA" first="_YYEQMc7JEe2cioh9aHqsuA">
+    <elements xmi:id="_YYEQMc7JEe2cioh9aHqsuA" next="_YYEQMs7JEe2cioh9aHqsuA" element="_dDd3Vc7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_YYEQMs7JEe2cioh9aHqsuA" previous="_YYEQMc7JEe2cioh9aHqsuA" next="_YYEQM87JEe2cioh9aHqsuA" element="_dDd3Xc7DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_YYEQM87JEe2cioh9aHqsuA" previous="_YYEQMs7JEe2cioh9aHqsuA" next="_YYEQNM7JEe2cioh9aHqsuA" element="_dDd3m87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_YYEQNM7JEe2cioh9aHqsuA" previous="_YYEQM87JEe2cioh9aHqsuA" next="_YYEQNc7JEe2cioh9aHqsuA" element="_dDd3E87DEe2cioh9aHqsuA"/>
+    <elements xmi:id="_YYEQNc7JEe2cioh9aHqsuA" previous="_YYEQNM7JEe2cioh9aHqsuA" element="_dDd3EM7DEe2cioh9aHqsuA"/>
+  </communicationPaths>
+  <refinement xsi:type="cofluent:Structure" xmi:id="_NhjiAc67Ee2cioh9aHqsuA" name="AllInOnePlfSt">
+    <models xsi:type="cofluent:Memory" xmi:id="_dDd3EM7DEe2cioh9aHqsuA" name="MEMORY" includes="" speedUpRatio="1" availableMemory="1 GB" voltage=" V" staticPowerConsumption="0 uW" cost="1 USD" readTime="10 ns" writeTime="10 ns" dynamicResourceLoad="100" storageCapacity="1">
+      <ports xmi:id="_dDd3Ec7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3FM7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_dDd3Es7DEe2cioh9aHqsuA" name="MEMORYSt">
+        <models xsi:type="cofluent:SlaveInterface" xmi:id="_dDd3E87DEe2cioh9aHqsuA" name="SI_MEM" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="1 ns" bufferWriteTime="1 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3FM7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3Ec7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Processor" xmi:id="_dDd3Vc7DEe2cioh9aHqsuA" name="CPU" includes="" cyclePeriod=" ns" speedUpRatio="1" voltage=" V" staticPowerConsumption=" uW" dynamicPowerConsumption=" uW" cost="1 USD" availableMemory="1 MB" staticResourceLoad="0">
+      <ports xmi:id="_dDd3Vs7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3XM7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <ports xmi:id="_dDd3V87DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3Xs7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <ports xmi:id="_dDd3WM7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3YM7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <ports xmi:id="_dDd3Wc7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3Y87DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_dDd3Ws7DEe2cioh9aHqsuA" name="CPUSt">
+        <models xsi:type="cofluent:MasterInterface" xmi:id="_dDd3W87DEe2cioh9aHqsuA" name="MI_WR_COPROC" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="10 ns" bufferWriteTime="10 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3XM7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3Vs7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+        <models xsi:type="cofluent:MasterInterface" xmi:id="_dDd3Xc7DEe2cioh9aHqsuA" name="MI_WR_MEM" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="10 ns" bufferWriteTime="10 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3Xs7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3V87DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+        <models xsi:type="cofluent:SlaveInterface" xmi:id="_dDd3X87DEe2cioh9aHqsuA" name="SI_RD_COPROC" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="10 ns" bufferWriteTime="10 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3YM7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3WM7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+        <models xsi:type="cofluent:Scheduler" xmi:id="_dDd3Yc7DEe2cioh9aHqsuA" name="SCHEDULER" coresNumber="2" dynamicSchedulingInterval="200 ms" preemptive="true" schedulingTime="5 ns" taskContextLoadTime="5 ns" taskContextSaveTime="5 ns" timeSlicePeriod="100 us" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="1 USD" dynamicResourceLoad="100"/>
+        <models xsi:type="cofluent:MasterInterface" xmi:id="_dDd3Ys7DEe2cioh9aHqsuA" name="MI_RD_MEM" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="10 ns" bufferWriteTime="10 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3Y87DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3Wc7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Processor" xmi:id="_dDd3ic7DEe2cioh9aHqsuA" name="COPROC" includes="" cyclePeriod=" ns" speedUpRatio="1.0/CoProcSpeedUp" voltage=" V" staticPowerConsumption=" uW" dynamicPowerConsumption=" uW" cost="1 USD" availableMemory="1 MB" staticResourceLoad="0">
+      <ports xmi:id="_dDd3is7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3js7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <ports xmi:id="_dDd3i87DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" relations="_dDd3m87DEe2cioh9aHqsuA" ports="_dDd3kM7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_dDd3jM7DEe2cioh9aHqsuA" name="COPROCSt">
+        <models xsi:type="cofluent:SlaveInterface" xmi:id="_dDd3jc7DEe2cioh9aHqsuA" name="SI_RD_CPU" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="10 ns" bufferWriteTime="10 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3js7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3is7DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+        <models xsi:type="cofluent:MasterInterface" xmi:id="_dDd3j87DEe2cioh9aHqsuA" name="MI_WR_CPU" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="10 ns" bufferWriteTime="10 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_dDd3kM7DEe2cioh9aHqsuA" name="BUS" type="BUS" direction="IN_OUT" port="_dDd3i87DEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1"/>
+        </models>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Router" xmi:id="_E79c587JEe2cioh9aHqsuA" name="Router" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" concurrency="1" bufferCapacity="1" routingTime="10 ns" voltage=" V" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="1 USD" dynamicResourceLoad="100">
+      <ports xmi:id="_E79c6M7JEe2cioh9aHqsuA" name="Bus2" type="BUS" direction="IN_OUT" relations="_E79c287JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_E79c6c7JEe2cioh9aHqsuA" name="Bus1" type="BUS" direction="IN_OUT" relations="_E7-D4M7JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+    </models>
+    <models xsi:type="cofluent:Subsystem" xmi:id="_E7-EDc7JEe2cioh9aHqsuA" name="Subsystem" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" voltage=" V" cost="1 USD">
+      <ports xmi:id="_E7-EDs7JEe2cioh9aHqsuA" name="Bus2" type="BUS" direction="IN_OUT" relations="_E79c287JEe2cioh9aHqsuA" ports="_E7-EEc7JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_E7-ED87JEe2cioh9aHqsuA" name="SubsystemSt">
+        <models xsi:type="cofluent:Processor" xmi:id="_E7-EEM7JEe2cioh9aHqsuA" name="Processor" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" speedUpRatio="1" voltage=" V" staticPowerConsumption=" uW" dynamicPowerConsumption=" uW" cost="1 USD" availableMemory="1 MB" staticResourceLoad="0">
+          <ports xmi:id="_E7-EEc7JEe2cioh9aHqsuA" name="Bus2" type="BUS" direction="IN_OUT" port="_E7-EDs7JEe2cioh9aHqsuA" ports="_E7-EFM7JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+            <constructorArguments></constructorArguments>
+            <templateArguments></templateArguments>
+          </ports>
+          <refinement xsi:type="cofluent:Structure" xmi:id="_E7-EEs7JEe2cioh9aHqsuA" name="ProcessorSt">
+            <models xsi:type="cofluent:MasterInterface" xmi:id="_E7-EE87JEe2cioh9aHqsuA" name="MI" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="1 ns" bufferWriteTime="1 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+              <ports xmi:id="_E7-EFM7JEe2cioh9aHqsuA" name="Bus2" type="BUS" direction="IN_OUT" port="_E7-EEc7JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+                <constructorArguments></constructorArguments>
+                <templateArguments></templateArguments>
+              </ports>
+            </models>
+          </refinement>
+        </models>
+      </refinement>
+    </models>
+    <models xsi:type="cofluent:Processor" xmi:id="_E7-EMs7JEe2cioh9aHqsuA" name="Processor" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" cyclePeriod=" ns" speedUpRatio="1" voltage=" V" staticPowerConsumption=" uW" dynamicPowerConsumption=" uW" cost="1 USD" availableMemory="1 MB" staticResourceLoad="0">
+      <ports xmi:id="_E7-EM87JEe2cioh9aHqsuA" name="Bus1" type="BUS" direction="IN_OUT" relations="_E7-D4M7JEe2cioh9aHqsuA" ports="_E7-EN87JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <ports xmi:id="_E7-ENM7JEe2cioh9aHqsuA" name="Wire" type="WIRE" direction="IN" relations="_E79c0M7JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+        <constructorArguments></constructorArguments>
+        <templateArguments></templateArguments>
+      </ports>
+      <refinement xsi:type="cofluent:Structure" xmi:id="_E7-ENc7JEe2cioh9aHqsuA" name="ProcessorSt">
+        <models xsi:type="cofluent:SlaveInterface" xmi:id="_E7-ENs7JEe2cioh9aHqsuA" name="SI" target="" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors="" bufferCapacity="1" availableMemory="1 MB" bufferReadTime="1 ns" bufferWriteTime="1 ns" dynamicPowerConsumption="0 uW" cost="0 USD" dynamicResourceLoad="100" concurrency="1">
+          <ports xmi:id="_E7-EN87JEe2cioh9aHqsuA" name="Bus1" type="BUS" direction="IN_OUT" port="_E7-EM87JEe2cioh9aHqsuA" size="" synchronizeName="true" vector="false" requestPipelineDepth="1">
+            <constructorArguments></constructorArguments>
+            <templateArguments></templateArguments>
+          </ports>
+        </models>
+      </refinement>
+    </models>
+    <relations xsi:type="cofluent:Bus" xmi:id="_dDd3m87DEe2cioh9aHqsuA" name="BUS" ports="_dDd3Vs7DEe2cioh9aHqsuA _dDd3V87DEe2cioh9aHqsuA _dDd3WM7DEe2cioh9aHqsuA _dDd3Ec7DEe2cioh9aHqsuA _dDd3Wc7DEe2cioh9aHqsuA _dDd3i87DEe2cioh9aHqsuA _dDd3is7DEe2cioh9aHqsuA" concurrency="2" arbitrationTime="10 ns" transferTime="USERDATASIZE/BusThroughput ns" voltage=" V" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="1 USD" dynamicResourceLoad="100"/>
+    <relations xsi:type="cofluent:Wire" xmi:id="_E79c0M7JEe2cioh9aHqsuA" name="Wire" ports="_E7-ENM7JEe2cioh9aHqsuA" cost="1 USD"/>
+    <relations xsi:type="cofluent:Bus" xmi:id="_E79c287JEe2cioh9aHqsuA" name="Bus2" ports="_E7-EDs7JEe2cioh9aHqsuA _E79c6M7JEe2cioh9aHqsuA" concurrency="1" arbitrationTime="10 ns" transferTime="10 ns" voltage=" V" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="1 USD" dynamicResourceLoad="100" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors=""/>
+    <relations xsi:type="cofluent:Bus" xmi:id="_E7-D4M7JEe2cioh9aHqsuA" name="Bus1" ports="_E79c6c7JEe2cioh9aHqsuA _E7-EM87JEe2cioh9aHqsuA" concurrency="1" arbitrationTime="10 ns" transferTime="10 ns" voltage=" V" staticPowerConsumption="0 uW" dynamicPowerConsumption="0 uW" cost="1 USD" dynamicResourceLoad="100" includeInheritedHeader="" inheritanceClass="" callToInheritedConstructors=""/>
+  </refinement>
+</cofluent:Platform>

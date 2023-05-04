@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_g1MrMM7iEe2cioh9aHqsuA" visible="true" type="CofluentApplication" name="forSave.cf_app_di#_g1MEIc7iEe2cioh9aHqsuA" measurementUnit="Pixel">
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_g1MrMc7iEe2cioh9aHqsuA" pageX="0" pageY="0" pageWidth="100" pageHeight="100" description=""/>
+  <element href="forSave.cf_app#_g1MEIc7iEe2cioh9aHqsuA"/>
+</notation:Diagram>

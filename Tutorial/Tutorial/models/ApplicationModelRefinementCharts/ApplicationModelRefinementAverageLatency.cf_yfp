@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<charts:YFParamChart xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:charts="http://cofluent.intel.com/charts/1.0.0" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" rangeTime="false" locked="false" zoomRange="false" fillColor="-1" captionPosition="SOUTH" grid="false" captionOrientation="HORIZONTAL">
+  <probes xsi:type="charts:DynamicProbe" variable="AverageLatency" type="VARIABLE"/>
+  <model xsi:type="cofluent:Application" href="../ApplicationModelRefinement.cf_app#_UsFT4B3VEeaquPXHm3CdXA"/>
+  <plots probe="//@probes.0" display="INTERPOLATION" color="255" width="1"/>
+</charts:YFParamChart>

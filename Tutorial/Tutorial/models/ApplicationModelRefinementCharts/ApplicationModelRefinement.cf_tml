@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<charts:TimelineChart xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:charts="http://cofluent.intel.com/charts/1.0.0" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" rangeTime="false" locked="false" zoomRange="false" fillColor="-1" captionPosition="SOUTH" grid="false" cursor="true" enableTracking="false">
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../ApplicationModelRefinement.cf_app#_xh5WYSGrEeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:Event" href="../ApplicationModelRefinement.cf_app#_U8FzkCGrEeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:SharedVariable" href="../ApplicationModelRefinement.cf_app#_U8FzniGrEeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../ApplicationModelRefinement.cf_app#_U8HowCGrEeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:MessageQueue" href="../ApplicationModelRefinement.cf_app#_HoRFuSGuEeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:MessageQueue" href="../ApplicationModelRefinement.cf_app#_HoOpcCGuEeaaOsqBPt_qWw"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../ApplicationModelRefinement.cf_app#_HoP3kCGuEeaaOsqBPt_qWw"/>
+  </probes>
+  <model xsi:type="cofluent:Application" href="../ApplicationModelRefinement.cf_app#_UsFT4B3VEeaquPXHm3CdXA"/>
+</charts:TimelineChart>

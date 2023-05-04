@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ryK0QM7QEe2cioh9aHqsuA" visible="true" type="CofluentApplication" name="AllInOneReuse.cf_app_di#_ryKNMc7QEe2cioh9aHqsuA" measurementUnit="Pixel">
+  <children xmi:id="_vBq2IM7QEe2cioh9aHqsuA" visible="true" type="2002">
+    <children xmi:id="_vBq2Js7QEe2cioh9aHqsuA" visible="true" type="5002">
+      <styles xsi:type="notation:ShapeStyle" xmi:id="_vBq2J87QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+      <layoutConstraint xsi:type="notation:Location" xmi:id="_vBq2KM7QEe2cioh9aHqsuA" x="-5" y="20"/>
+    </children>
+    <styles xsi:type="notation:FontStyle" xmi:id="_vBq2Ic7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"/>
+    <styles xsi:type="notation:LineStyle" xmi:id="_vBq2Is7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+    <styles xsi:type="notation:DescriptionStyle" xmi:id="_vBq2I87QEe2cioh9aHqsuA" description=""/>
+    <styles xsi:type="notation:IntValueStyle" xmi:id="_vBq2JM7QEe2cioh9aHqsuA" name="Rotated_Style"/>
+    <element href="AllInOneReuse.cf_app#_vBjhYM7QEe2cioh9aHqsuA"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vBq2Jc7QEe2cioh9aHqsuA" x="877" y="514" width="-1" height="-1"/>
+  </children>
+  <children xmi:id="_t33VcM7QEe2cioh9aHqsuA" visible="true" type="2004">
+    <children xmi:id="_t33VdM7QEe2cioh9aHqsuA" visible="true" type="5011"/>
+    <children xmi:id="_t35KoM7QEe2cioh9aHqsuA" visible="true" type="3003">
+      <children xmi:id="_t35Kpc7QEe2cioh9aHqsuA" visible="true" type="5015">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_t35Kps7QEe2cioh9aHqsuA" x="0" y="5"/>
+      </children>
+      <children xmi:id="_t35Kp87QEe2cioh9aHqsuA" visible="true" type="7002">
+        <children xmi:id="_t35Kqs7QEe2cioh9aHqsuA" visible="true" type="3022">
+          <styles xsi:type="notation:DescriptionStyle" xmi:id="_t35Kq87QEe2cioh9aHqsuA" description=""/>
+          <styles xsi:type="notation:LineStyle" xmi:id="_t35KrM7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t35Krc7QEe2cioh9aHqsuA" x="47" y="30" width="13" height="13"/>
+        </children>
+        <children xmi:id="_t36_0M7QEe2cioh9aHqsuA" visible="true" type="3016">
+          <children xmi:id="_t36_087QEe2cioh9aHqsuA" visible="true" type="5008"/>
+          <styles xsi:type="notation:ShapeStyle" xmi:id="_t36_0c7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+          <element href="AllInOneReuse.cf_app#_t3wAsc7QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t36_0s7QEe2cioh9aHqsuA" x="42" y="64" width="23" height="22"/>
+        </children>
+        <children xmi:id="_t36_1M7QEe2cioh9aHqsuA" visible="true" type="3017">
+          <children xmi:id="_t37m4s7QEe2cioh9aHqsuA" visible="true" type="5009">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_t37m487QEe2cioh9aHqsuA" x="17" y="-8"/>
+          </children>
+          <styles xsi:type="notation:FontStyle" xmi:id="_t36_1c7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"/>
+          <styles xsi:type="notation:DescriptionStyle" xmi:id="_t36_1s7QEe2cioh9aHqsuA" description=""/>
+          <styles xsi:type="notation:LineStyle" xmi:id="_t37m4M7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+          <element href="AllInOneReuse.cf_app#_t3wAss7QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t37m4c7QEe2cioh9aHqsuA" x="36" y="106" width="35" height="35"/>
+        </children>
+        <children xmi:id="_t37m5M7QEe2cioh9aHqsuA" visible="true" type="3016">
+          <children xmi:id="_t37m587QEe2cioh9aHqsuA" visible="true" type="5008"/>
+          <styles xsi:type="notation:ShapeStyle" xmi:id="_t37m5c7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+          <element href="AllInOneReuse.cf_app#_t3wAs87QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t37m5s7QEe2cioh9aHqsuA" x="29" y="156" width="49" height="22"/>
+        </children>
+        <children xmi:id="_t37m6M7QEe2cioh9aHqsuA" visible="true" type="3014">
+          <children xmi:id="_t37m7c7QEe2cioh9aHqsuA" visible="true" type="5007">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_t37m7s7QEe2cioh9aHqsuA" x="0" y="5"/>
+          </children>
+          <children xmi:id="_t37m787QEe2cioh9aHqsuA" visible="true" type="5019">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_t37m8M7QEe2cioh9aHqsuA" x="0" y="5"/>
+          </children>
+          <styles xsi:type="notation:DescriptionStyle" xmi:id="_t37m6c7QEe2cioh9aHqsuA" description=""/>
+          <styles xsi:type="notation:LineStyle" xmi:id="_t37m6s7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+          <styles xsi:type="notation:IntValueStyle" xmi:id="_t37m687QEe2cioh9aHqsuA" name="Rotated_Style"/>
+          <element href="AllInOneReuse.cf_app#_t3wAtM7QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t37m7M7QEe2cioh9aHqsuA" x="51" y="212" width="26" height="18"/>
+        </children>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_t35KqM7QEe2cioh9aHqsuA" sorting="None"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_t35Kqc7QEe2cioh9aHqsuA" filtering="None"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_t35Koc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_t35Kos7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+      <styles xsi:type="notation:DescriptionStyle" xmi:id="_t35Ko87QEe2cioh9aHqsuA" description=""/>
+      <element href="AllInOneReuse.cf_app#_t3wAsM7QEe2cioh9aHqsuA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t35KpM7QEe2cioh9aHqsuA" x="12" y="12" width="86" height="233"/>
+    </children>
+    <children xmi:id="_x_3soM7QEe2cioh9aHqsuA" visible="true" type="3024">
+      <children xmi:id="_x_3so87QEe2cioh9aHqsuA" visible="true" type="3524">
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_x_3spM7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_x_3spc7QEe2cioh9aHqsuA" x="0" y="0"/>
+      </children>
+      <styles xsi:type="notation:ShapeStyle" xmi:id="_x_3soc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+      <element href="AllInOneReuse.cf_app#_x_3FkM7QEe2cioh9aHqsuA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_x_3sos7QEe2cioh9aHqsuA" x="132" y="248" width="-1" height="-1"/>
+    </children>
+    <styles xsi:type="notation:ShapeStyle" xmi:id="_t33Vcc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+    <styles xsi:type="notation:MultiDiagramLinkStyle" xmi:id="_t33Vcs7QEe2cioh9aHqsuA"/>
+    <element href="AllInOneReuse.cf_app#_t3uLgM7QEe2cioh9aHqsuA"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t33Vc87QEe2cioh9aHqsuA" x="680" y="267" width="135" height="315"/>
+  </children>
+  <children xmi:id="_uWZrkM7QEe2cioh9aHqsuA" visible="true" type="2004">
+    <children xmi:id="_uWaSoM7QEe2cioh9aHqsuA" visible="true" type="5011"/>
+    <children xmi:id="_uWa5sM7QEe2cioh9aHqsuA" visible="true" type="3003">
+      <children xmi:id="_uWa5tc7QEe2cioh9aHqsuA" visible="true" type="5015">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_uWa5ts7QEe2cioh9aHqsuA" x="0" y="5"/>
+      </children>
+      <children xmi:id="_uWa5t87QEe2cioh9aHqsuA" visible="true" type="7002">
+        <children xmi:id="_uWa5us7QEe2cioh9aHqsuA" visible="true" type="3022">
+          <styles xsi:type="notation:DescriptionStyle" xmi:id="_uWa5u87QEe2cioh9aHqsuA" description=""/>
+          <styles xsi:type="notation:LineStyle" xmi:id="_uWa5vM7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWa5vc7QEe2cioh9aHqsuA" x="43" y="31" width="13" height="13"/>
+        </children>
+        <children xmi:id="_uWbgwM7QEe2cioh9aHqsuA" visible="true" type="3016">
+          <children xmi:id="_uWbgw87QEe2cioh9aHqsuA" visible="true" type="5008"/>
+          <styles xsi:type="notation:ShapeStyle" xmi:id="_uWbgwc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+          <element href="AllInOneReuse.cf_app#_uWRIsc7QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWbgws7QEe2cioh9aHqsuA" x="38" y="64" width="23" height="22"/>
+        </children>
+        <children xmi:id="_uWbgxM7QEe2cioh9aHqsuA" visible="true" type="3017">
+          <children xmi:id="_uWbgyc7QEe2cioh9aHqsuA" visible="true" type="5009">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_uWbgys7QEe2cioh9aHqsuA" x="17" y="-8"/>
+          </children>
+          <styles xsi:type="notation:FontStyle" xmi:id="_uWbgxc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"/>
+          <styles xsi:type="notation:DescriptionStyle" xmi:id="_uWbgxs7QEe2cioh9aHqsuA" description=""/>
+          <styles xsi:type="notation:LineStyle" xmi:id="_uWbgx87QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+          <element href="AllInOneReuse.cf_app#_uWRIss7QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWbgyM7QEe2cioh9aHqsuA" x="32" y="106" width="35" height="35"/>
+        </children>
+        <children xmi:id="_uWbgy87QEe2cioh9aHqsuA" visible="true" type="3016">
+          <children xmi:id="_uWbgzs7QEe2cioh9aHqsuA" visible="true" type="5008"/>
+          <styles xsi:type="notation:ShapeStyle" xmi:id="_uWbgzM7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+          <element href="AllInOneReuse.cf_app#_uWRIs87QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWbgzc7QEe2cioh9aHqsuA" x="25" y="193" width="49" height="22"/>
+        </children>
+        <children xmi:id="_uWbgz87QEe2cioh9aHqsuA" visible="true" type="3015">
+          <children xmi:id="_uWcH0M7QEe2cioh9aHqsuA" visible="true" type="5017">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_uWcH0c7QEe2cioh9aHqsuA" x="0" y="5"/>
+          </children>
+          <children xmi:id="_uWcH0s7QEe2cioh9aHqsuA" visible="true" type="5018">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_uWcH087QEe2cioh9aHqsuA" x="5" y="15"/>
+          </children>
+          <styles xsi:type="notation:DescriptionStyle" xmi:id="_uWbg0M7QEe2cioh9aHqsuA" description=""/>
+          <styles xsi:type="notation:LineStyle" xmi:id="_uWbg0c7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+          <styles xsi:type="notation:IntValueStyle" xmi:id="_uWbg0s7QEe2cioh9aHqsuA" name="Rotated_Style"/>
+          <element href="AllInOneReuse.cf_app#_uWRItM7QEe2cioh9aHqsuA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWbg087QEe2cioh9aHqsuA" x="23" y="161" width="-1" height="-1"/>
+        </children>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_uWa5uM7QEe2cioh9aHqsuA" sorting="None"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_uWa5uc7QEe2cioh9aHqsuA" filtering="None"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_uWa5sc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"/>
+      <styles xsi:type="notation:LineStyle" xmi:id="_uWa5ss7QEe2cioh9aHqsuA" lineColor="0" lineWidth="-1"/>
+      <styles xsi:type="notation:DescriptionStyle" xmi:id="_uWa5s87QEe2cioh9aHqsuA" description=""/>
+      <element href="AllInOneReuse.cf_app#_uWRIsM7QEe2cioh9aHqsuA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWa5tM7QEe2cioh9aHqsuA" x="12" y="12" width="93" height="234"/>
+    </children>
+    <children xmi:id="_yONDkM7QEe2cioh9aHqsuA" visible="true" type="3024">
+      <children xmi:id="_yONDk87QEe2cioh9aHqsuA" visible="true" type="3524">
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_yONDlM7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_yONDlc7QEe2cioh9aHqsuA" x="0" y="0"/>
+      </children>
+      <styles xsi:type="notation:ShapeStyle" xmi:id="_yONDkc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+      <element href="AllInOneReuse.cf_app#_yOMcgM7QEe2cioh9aHqsuA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yONDks7QEe2cioh9aHqsuA" x="-5" y="195" width="-1" height="-1"/>
+    </children>
+    <styles xsi:type="notation:ShapeStyle" xmi:id="_uWZrkc7QEe2cioh9aHqsuA" fontColor="0" fontName="Segoe UI" fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false" description="" fillColor="16777215" transparency="-1" lineColor="0" lineWidth="-1" roundedBendpointsRadius="0"/>
+    <styles xsi:type="notation:MultiDiagramLinkStyle" xmi:id="_uWZrks7QEe2cioh9aHqsuA"/>
+    <element href="AllInOneReuse.cf_app#_uWPTgM7QEe2cioh9aHqsuA"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_uWZrk87QEe2cioh9aHqsuA" x="1043" y="272" width="117" height="307"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_ryK0Qc7QEe2cioh9aHqsuA" pageX="0" pageY="0" pageWidth="100" pageHeight="100" description=""/>
+  <element href="AllInOneReuse.cf_app#_ryKNMc7QEe2cioh9aHqsuA"/>
+  <edges xmi:id="_t39cEM7QEe2cioh9aHqsuA" visible="true" type="4003" source="_t35Kqs7QEe2cioh9aHqsuA" target="_t36_0M7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_t39cEc7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_t39cEs7QEe2cioh9aHqsuA" points="[0, 0, 0, -20]$[0, 20, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMNs7QEe2cioh9aHqsuA" id="(0.5000001467191256,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMN87QEe2cioh9aHqsuA" id="(0.5000000829282014,0.0)"/>
+  </edges>
+  <edges xmi:id="_t3-DIM7QEe2cioh9aHqsuA" visible="true" type="4002" source="_t36_0M7QEe2cioh9aHqsuA" target="_t36_1M7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_t3-DIc7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_t3-DIs7QEe2cioh9aHqsuA" points="[0, 0, 0, -20]$[0, 20, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMMM7QEe2cioh9aHqsuA" id="(0.5000000829282014,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMMc7QEe2cioh9aHqsuA" id="(0.5000000544956752,0.0)"/>
+  </edges>
+  <edges xmi:id="_t3-DI87QEe2cioh9aHqsuA" visible="true" type="4003" source="_t36_1M7QEe2cioh9aHqsuA" target="_t37m5M7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_t3-DJM7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_t3-DJc7QEe2cioh9aHqsuA" points="[0, 0, 0, -23]$[0, 23, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMNM7QEe2cioh9aHqsuA" id="(0.6666666848318917,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMNc7QEe2cioh9aHqsuA" id="target:TOP"/>
+  </edges>
+  <edges xmi:id="_t3-DJs7QEe2cioh9aHqsuA" visible="true" type="4002" source="_t37m5M7QEe2cioh9aHqsuA" target="_t37m6M7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_t3-DJ87QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_t3-DKM7QEe2cioh9aHqsuA" points="[0, 0, 0, -35]$[0, 16, 0, -19]$[0, 35, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMMs7QEe2cioh9aHqsuA" id="source:BOTTOM"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4SMM87QEe2cioh9aHqsuA" id="target:TOP"/>
+  </edges>
+  <edges xmi:id="_t3-qMM7QEe2cioh9aHqsuA" visible="true" type="4021" source="_t37m6M7QEe2cioh9aHqsuA" target="_t36_1M7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_t3-qMc7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_t3-qMs7QEe2cioh9aHqsuA" points="[0, 0, 17, 106]$[0, 28, 17, 134]$[-44, 28, -27, 134]$[-44, -106, -27, 0]$[-17, -106, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4RlIM7QEe2cioh9aHqsuA" id="(0.33333330888014573,0.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_t4RlIc7QEe2cioh9aHqsuA" id="(0.33333336966378346,1.0)"/>
+  </edges>
+  <edges xmi:id="_uWcu4M7QEe2cioh9aHqsuA" visible="true" type="4003" source="_uWa5us7QEe2cioh9aHqsuA" target="_uWbgwM7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_uWcu4c7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_uWcu4s7QEe2cioh9aHqsuA" points="[0, 0, 0, -20]$[0, 20, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_uWzUNM7QEe2cioh9aHqsuA" id="(0.5,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_uWzUNc7QEe2cioh9aHqsuA" id="(0.5000000829282014,0.0)"/>
+  </edges>
+  <edges xmi:id="_uWdV8M7QEe2cioh9aHqsuA" visible="true" type="4002" source="_uWbgwM7QEe2cioh9aHqsuA" target="_uWbgxM7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_uWdV8c7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_uWdV8s7QEe2cioh9aHqsuA" points="[0, 0, 0, -20]$[0, 20, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_uWzUMM7QEe2cioh9aHqsuA" id="(0.5000000829282014,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_uWzUMc7QEe2cioh9aHqsuA" id="(0.5000000544956752,0.0)"/>
+  </edges>
+  <edges xmi:id="_uWdV887QEe2cioh9aHqsuA" visible="true" type="4003" source="_uWbgxM7QEe2cioh9aHqsuA" target="_uWbgz87QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_uWdV9M7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_uWdV9c7QEe2cioh9aHqsuA" points="[200, 245, 200, 207]$[205, 265, 205, 227]"/>
+  </edges>
+  <edges xmi:id="_uWdV9s7QEe2cioh9aHqsuA" visible="true" type="4021" source="_uWbgy87QEe2cioh9aHqsuA" target="_uWbgxM7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_uWdV987QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_uWdV-M7QEe2cioh9aHqsuA" points="[205, 227, 223, 318]$[0, 21, 18, 112]$[-36, 21, -18, 112]$[-37, -94, -19, -3]$[187, 136, 205, 227]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_uWzUM87QEe2cioh9aHqsuA" id="source:BOTTOM"/>
+  </edges>
+  <edges xmi:id="_uWd9AM7QEe2cioh9aHqsuA" visible="true" type="4002" source="_uWbgz87QEe2cioh9aHqsuA" target="_uWbgy87QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_uWd9Ac7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="0" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_uWd9As7QEe2cioh9aHqsuA" points="[209, 235, 199, 210]$[215, 252, 205, 227]"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_uWzUMs7QEe2cioh9aHqsuA" id="target:TOP"/>
+  </edges>
+  <edges xmi:id="_x_3sps7QEe2cioh9aHqsuA" visible="true" type="4001" source="_vBq2IM7QEe2cioh9aHqsuA" target="_x_3soM7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_x_3sp87QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="16738622" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_x_3sqM7QEe2cioh9aHqsuA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_x_4TsM7QEe2cioh9aHqsuA" visible="true" type="4010" source="_x_3soM7QEe2cioh9aHqsuA" target="_t37m6M7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_x_4Tsc7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="16738622" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_x_4Tss7QEe2cioh9aHqsuA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_yONDls7QEe2cioh9aHqsuA" visible="true" type="4001" source="_vBq2IM7QEe2cioh9aHqsuA" target="_yONDkM7QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_yONDl87QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="16738622" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_yONDmM7QEe2cioh9aHqsuA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_yONDmc7QEe2cioh9aHqsuA" visible="true" type="4022" source="_yONDkM7QEe2cioh9aHqsuA" target="_uWbgz87QEe2cioh9aHqsuA">
+    <styles xsi:type="notation:ConnectorStyle" xmi:id="_yONDms7QEe2cioh9aHqsuA" roundedBendpointsRadius="0" routing="Rectilinear" smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None" jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="16738622" lineWidth="-1"/>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_yONDm87QEe2cioh9aHqsuA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

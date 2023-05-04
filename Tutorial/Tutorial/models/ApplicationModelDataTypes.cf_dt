@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofluent:DataTypeModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" xmi:id="_mFe2ECGuEeaaOsqBPt_qWw" name="ApplicationModelDataTypes" version="6.2.0_beta1_20160523-2100">
+  <dataTypes xmi:id="_mFqcQCGuEeaaOsqBPt_qWw" name="DefAck" definition="typedef bool DefAck;"/>
+  <dataTypes xmi:id="_mFqcQiGuEeaaOsqBPt_qWw" name="DefDataVar" definition="typedef DefValue DefDataVar;" tracePayload="&#x9;trace.fmt(&quot;%f&quot;, get_data());"/>
+  <dataTypes xmi:id="_mFqcRSGuEeaaOsqBPt_qWw" name="DefMsg" definition="typedef DefData DefMsg;"/>
+  <dataTypes xmi:id="_mFrDUCGuEeaaOsqBPt_qWw" name="DefTestProd" definition="typedef DefValue DefTestProd;" tracePayload="&#x9;trace.fmt(&quot;%f&quot;, get_data());"/>
+</cofluent:DataTypeModel>
